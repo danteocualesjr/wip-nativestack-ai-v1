@@ -1,3 +1,4 @@
+
 import { ArrowRight, Check, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
@@ -16,21 +17,21 @@ const Index = () => {
         <section className="relative overflow-hidden px-6 lg:px-8 py-24 sm:py-32">
           <div className="mx-auto max-w-7xl text-center">
             <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-primary mb-6">
-              Change the bank account
+              We help businesses thrive
               <br />
               <span className="bg-gradient-to-r from-[#9EE755] to-[#CFDD3C] bg-clip-text text-transparent">
-                you use
+                with AI
               </span>
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-secondary mb-8">
-              Experience banking reimagined. Simple, secure, and designed for the modern world.
+              We help business build tools and systems to streamline workflows and drive revenue.
             </p>
             <div className="flex justify-center gap-4">
               <button className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors">
                 Get Started
               </button>
               <button className="px-6 py-3 glass rounded-full hover:bg-white/20 transition-colors flex items-center gap-2">
-                Learn More <ArrowRight className="w-4 h-4" />
+                Our Services <ArrowRight className="w-4 h-4" />
               </button>
             </div>
           </div>
@@ -49,23 +50,23 @@ const Index = () => {
 
         <section className="py-24 bg-surface px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
-            <h2 className="text-3xl font-bold text-center mb-16">Features designed for you</h2>
+            <h2 className="text-3xl font-bold text-center mb-16">Services designed for your business</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "Secure Transactions",
-                  description: "Bank-grade encryption for all your transactions",
-                  icon: "🔒",
-                },
-                {
-                  title: "Real-time Updates",
-                  description: "Get instant notifications for all account activities",
-                  icon: "⚡",
-                },
-                {
-                  title: "Smart Savings",
-                  description: "AI-powered insights to help you save more",
+                  title: "AI Strategy Consulting",
+                  description: "Expert guidance to integrate AI into your business workflows",
                   icon: "💡",
+                },
+                {
+                  title: "Custom AI Development",
+                  description: "Tailor-made AI solutions to address your specific business needs",
+                  icon: "⚙️",
+                },
+                {
+                  title: "Data Analysis & Insights",
+                  description: "AI-powered analytics to unlock valuable insights from your data",
+                  icon: "📊",
                 },
               ].map((feature, index) => (
                 <div
@@ -88,16 +89,16 @@ const Index = () => {
             <div className="space-y-4">
               {[
                 {
-                  question: "How secure is my data?",
-                  answer: "We use bank-level encryption to protect all your data and transactions.",
+                  question: "How can AI benefit my business?",
+                  answer: "AI can automate repetitive tasks, analyze large datasets for insights, improve customer experiences, and help make data-driven decisions.",
                 },
                 {
-                  question: "What are the fees?",
-                  answer: "We believe in transparent pricing with no hidden fees.",
+                  question: "What types of businesses do you work with?",
+                  answer: "We work with businesses of all sizes across various industries, from startups to enterprise organizations looking to leverage AI.",
                 },
                 {
-                  question: "How do I get started?",
-                  answer: "Download our app and follow the simple registration process.",
+                  question: "How do I get started with NativeStack AI?",
+                  answer: "Contact us for a free consultation where we'll discuss your business needs and how our AI solutions can help.",
                 },
               ].map((faq, index) => (
                 <div
@@ -129,12 +130,12 @@ const Index = () => {
         {/* CTA Section */}
         <section className="py-24 bg-primary text-white px-6 lg:px-8">
           <div className="mx-auto max-w-7xl text-center">
-            <h2 className="text-3xl sm:text-5xl font-bold mb-8">Ready to get started?</h2>
+            <h2 className="text-3xl sm:text-5xl font-bold mb-8">Ready to transform your business with AI?</h2>
             <p className="text-white/80 mb-8 max-w-2xl mx-auto">
-              Join thousands of satisfied customers who have already made the switch.
+              Join innovative companies that are already leveraging our AI expertise to drive growth.
             </p>
             <button className="px-8 py-4 bg-accent text-primary rounded-full font-semibold hover:bg-accent/90 transition-colors">
-              Create Account
+              Schedule a Consultation
             </button>
           </div>
         </section>

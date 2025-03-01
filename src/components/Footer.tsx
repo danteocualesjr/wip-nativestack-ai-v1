@@ -1,10 +1,11 @@
+
 import { Link } from "react-router-dom";
 
 const Footer = () => {
   const footerSections = [
     {
-      title: "Product",
-      links: ["Features", "Pricing", "Security", "Updates"],
+      title: "Services",
+      links: ["AI Strategy", "Custom Development", "Data Analysis", "Implementation"],
     },
     {
       title: "Company",
@@ -12,7 +13,7 @@ const Footer = () => {
     },
     {
       title: "Resources",
-      links: ["Documentation", "Help Center", "Contact", "Status"],
+      links: ["Case Studies", "Knowledge Base", "Documentation", "Guides"],
     },
     {
       title: "Legal",
@@ -31,7 +32,7 @@ const Footer = () => {
                 {section.links.map((link) => (
                   <li key={link}>
                     <Link
-                      to={`/${link.toLowerCase()}`}
+                      to={`/${link.toLowerCase().replace(/\s+/g, '-')}`}
                       className="text-white/70 hover:text-white transition-colors"
                     >
                       {link}
@@ -45,7 +46,7 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/70 text-sm">
-            © 2024 BankApp. All rights reserved.
+            © 2024 NativeStack AI. All rights reserved.
           </p>
           <div className="flex items-center space-x-6">
             <Link to="#" className="text-white/70 hover:text-white transition-colors">
