@@ -11,14 +11,14 @@ const Navigation = () => {
         </Link>
         
         <div className="hidden md:flex items-center space-x-8">
-          <Link to="/features" className="text-secondary hover:text-primary transition-colors">
-            Services
+          <Link to="/about-us" className="text-secondary hover:text-primary transition-colors">
+            About Us
+          </Link>
+          <Link to="/our-services" className="text-secondary hover:text-primary transition-colors">
+            Our Services
           </Link>
           <Link to="/pricing" className="text-secondary hover:text-primary transition-colors">
-            Solutions
-          </Link>
-          <Link to="/about" className="text-secondary hover:text-primary transition-colors">
-            About
+            Pricing
           </Link>
         </div>
 
