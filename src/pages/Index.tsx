@@ -1,4 +1,3 @@
-
 import { ArrowRight, Check, ChevronDown } from "lucide-react";
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
@@ -36,31 +35,14 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Hero Images */}
-          <div className="relative mt-16 space-y-10">
-            {/* Main Dashboard Image */}
+          {/* Hero Image */}
+          <div className="relative mt-16">
             <div className="flex justify-center">
               <img
                 src="https://antimetal.com/images/hero/preview.png"
                 alt="Hero"
                 className="rounded-3xl shadow-2xl max-w-[90%] w-auto h-auto"
               />
-            </div>
-            
-            {/* KPI Dashboard Image */}
-            <div className="flex justify-center">
-              <div className="relative">
-                <img
-                  src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-                  alt="KPI Dashboard"
-                  className="rounded-3xl shadow-2xl max-w-[90%] w-auto h-auto"
-                />
-                <div className="absolute inset-0 bg-primary/10 rounded-3xl"></div>
-                <div className="absolute bottom-6 left-6 bg-background/80 backdrop-blur-sm p-4 rounded-xl">
-                  <p className="font-semibold text-secondary">KPI Dashboard</p>
-                  <p className="text-sm text-secondary/80">Real-time business analytics</p>
-                </div>
-              </div>
             </div>
           </div>
         </section>
