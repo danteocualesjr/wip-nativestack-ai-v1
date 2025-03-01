@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -19,11 +20,11 @@ export default {
     },
     extend: {
       colors: {
-        primary: "#141413",
-        secondary: "#828179",
-        accent: "#C7FB76",
-        background: "#FAFAF8",
-        surface: "#fff",
+        primary: "#FF6601", // Y Combinator orange
+        secondary: "#444444", // Darker text
+        accent: "#FF6601", // Same orange for accent
+        background: "#F6F6EF", // Light beige background
+        surface: "#FFFFFF",
         muted: "#C4C3BB",
         "muted-foreground": "#A3A299",
         border: "#E6E4DD",

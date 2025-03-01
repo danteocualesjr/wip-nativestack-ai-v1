@@ -16,21 +16,21 @@ const Index = () => {
         {/* Hero Section */}
         <section className="relative overflow-hidden px-6 lg:px-8 py-24 sm:py-32">
           <div className="mx-auto max-w-7xl text-center">
-            <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-primary mb-6">
+            <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-secondary mb-6">
               We help businesses thrive
               <br />
-              <span className="bg-gradient-to-r from-[#9EE755] to-[#CFDD3C] bg-clip-text text-transparent">
+              <span className="text-primary">
                 with AI
               </span>
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-secondary mb-8">
-              We help business build tools and systems to streamline workflows and drive revenue.
+              We help businesses build tools and systems to streamline workflows and drive revenue.
             </p>
             <div className="flex justify-center gap-4">
               <button className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors">
                 Get Started
               </button>
-              <button className="px-6 py-3 glass rounded-full hover:bg-white/20 transition-colors flex items-center gap-2">
+              <button className="px-6 py-3 border border-primary text-primary rounded-full hover:bg-primary/10 transition-colors flex items-center gap-2">
                 Our Services <ArrowRight className="w-4 h-4" />
               </button>
             </div>
@@ -50,7 +50,7 @@ const Index = () => {
 
         <section className="py-24 bg-surface px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
-            <h2 className="text-3xl font-bold text-center mb-16">Services designed for your business</h2>
+            <h2 className="text-3xl font-bold text-center mb-16 text-secondary">Services designed for your business</h2>
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
@@ -71,10 +71,10 @@ const Index = () => {
               ].map((feature, index) => (
                 <div
                   key={index}
-                  className="p-6 rounded-2xl bg-background border border-border hover:border-accent transition-colors"
+                  className="p-6 rounded-2xl bg-background border border-border hover:border-primary transition-colors"
                 >
                   <div className="text-4xl mb-4">{feature.icon}</div>
-                  <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-secondary">{feature.title}</h3>
                   <p className="text-secondary">{feature.description}</p>
                 </div>
               ))}
@@ -85,7 +85,7 @@ const Index = () => {
         {/* FAQ Section */}
         <section className="py-24 px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
-            <h2 className="text-3xl font-bold text-center mb-16">Frequently Asked Questions</h2>
+            <h2 className="text-3xl font-bold text-center mb-16 text-secondary">Frequently Asked Questions</h2>
             <div className="space-y-4">
               {[
                 {
@@ -134,7 +134,7 @@ const Index = () => {
             <p className="text-white/80 mb-8 max-w-2xl mx-auto">
               Join innovative companies that are already leveraging our AI expertise to drive growth.
             </p>
-            <button className="px-8 py-4 bg-accent text-primary rounded-full font-semibold hover:bg-accent/90 transition-colors">
+            <button className="px-8 py-4 bg-white text-primary rounded-full font-semibold hover:bg-white/90 transition-colors">
               Schedule a Consultation
             </button>
           </div>
