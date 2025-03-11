@@ -1,4 +1,5 @@
-import { ArrowRight, Check, ChevronDown, Briefcase, Settings, BarChart3 } from "lucide-react";
+
+import { ArrowRight, Check, ChevronDown, Zap, Settings, BarChart3 } from "lucide-react";
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -54,8 +55,8 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Services Section */}
-        <section className="py-24 bg-surface px-6 lg:px-8">
+        {/* Services Section - Updated with modern design */}
+        <section className="py-24 bg-gradient-to-b from-surface to-background px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold text-secondary mb-4">Services designed for your business</h2>
@@ -65,30 +66,41 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "Training in Essential AI Skills",
-                  description: "Engaging virtual events and hands-on demos showcasing the latest AI tools for your workflow.",
-                  icon: <Briefcase className="w-8 h-8 text-primary" />,
+                  title: "AI Skills Training",
+                  description: "Interactive virtual workshops and hands-on demos showcasing cutting-edge AI tools to enhance your workflow.",
+                  icon: <Zap className="w-8 h-8 text-white" />,
+                  gradient: "from-[#FFA07A] to-[#FF6347]",
                 },
                 {
-                  title: "Building or Curating a Stack of Tools",
-                  description: "Tailored no-code tools and micro-apps to automate workflows and enable data-driven decisions.",
-                  icon: <Settings className="w-8 h-8 text-primary" />,
+                  title: "Custom AI Tool Development",
+                  description: "Bespoke no-code tools and micro-apps that automate workflows and enable data-driven decisions.",
+                  icon: <Settings className="w-8 h-8 text-white" />,
+                  gradient: "from-[#6495ED] to-[#4169E1]",
                 },
                 {
-                  title: "Your AI-Powered Sales Arm",
-                  description: "AI-driven sales support to personalize outreach, automate lead generation, and deliver actionable insights.",
-                  icon: <BarChart3 className="w-8 h-8 text-primary" />,
+                  title: "AI-Powered Sales Solutions",
+                  description: "Intelligent sales support to personalize outreach, automate lead generation, and deliver actionable insights.",
+                  icon: <BarChart3 className="w-8 h-8 text-white" />,
+                  gradient: "from-[#9370DB] to-[#8A2BE2]",
                 },
               ].map((feature, index) => (
                 <div
                   key={index}
-                  className="p-8 rounded-2xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 border border-border/30 hover:border-primary/30 group"
+                  className="p-8 rounded-2xl bg-white shadow-xl transition-all duration-300 hover:translate-y-[-8px] border border-border/10 group"
                 >
-                  <div className="mb-6 p-4 rounded-full bg-primary/10 inline-block group-hover:bg-primary/20 transition-colors">
+                  <div className={`mb-6 p-4 rounded-2xl bg-gradient-to-r ${feature.gradient} inline-block`}>
                     {feature.icon}
                   </div>
                   <h3 className="text-xl font-semibold mb-3 text-secondary group-hover:text-primary transition-colors">{feature.title}</h3>
                   <p className="text-secondary/80">{feature.description}</p>
+                  <div className="mt-6 pt-6 border-t border-border/30">
+                    <Link 
+                      to="/our-services" 
+                      className="text-primary font-medium flex items-center gap-2 group-hover:gap-3 transition-all"
+                    >
+                      Learn more <ArrowRight className="w-4 h-4" />
+                    </Link>
+                  </div>
                 </div>
               ))}
             </div>
