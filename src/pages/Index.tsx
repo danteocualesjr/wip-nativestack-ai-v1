@@ -66,20 +66,20 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "AI Skills Training",
-                  description: "Interactive virtual workshops and hands-on demos showcasing cutting-edge AI tools to enhance your workflow.",
+                  title: "Training in Essential AI Skills",
+                  description: "Engaging virtual events and hands-on demos showcasing the latest AI tools and resources, with practical guidance on integrating them into your workflows.",
                   icon: <Zap className="w-8 h-8 text-white" />,
                   gradient: "from-[#FFA07A] to-[#FF6347]",
                 },
                 {
-                  title: "Custom AI Tool Development",
-                  description: "Bespoke no-code tools and micro-apps that automate workflows and enable data-driven decisions.",
+                  title: "Building or Curating a Stack of Tools",
+                  description: "Developing or curating a tailored stack of no-code tools, including web apps and micro-apps, to automate workflows and enhance productivity.",
                   icon: <Settings className="w-8 h-8 text-white" />,
                   gradient: "from-[#6495ED] to-[#4169E1]",
                 },
                 {
-                  title: "AI-Powered Sales Solutions",
-                  description: "Intelligent sales support to personalize outreach, automate lead generation, and deliver actionable insights.",
+                  title: "Your AI-Powered Sales Arm",
+                  description: "Providing AI-driven sales support to personalize customer outreach, automate lead generation, and deliver actionable insights that refine your campaigns.",
                   icon: <BarChart3 className="w-8 h-8 text-white" />,
                   gradient: "from-[#9370DB] to-[#8A2BE2]",
                 },
