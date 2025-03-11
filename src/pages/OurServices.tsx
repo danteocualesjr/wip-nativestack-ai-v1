@@ -25,6 +25,19 @@ const OurServices = () => {
           </div>
         </section>
 
+        {/* KPI Dashboard Image */}
+        <section className="px-6 lg:px-8 py-12 bg-surface">
+          <div className="max-w-5xl mx-auto">
+            <div className="flex justify-center">
+              <img
+                src="/lovable-uploads/987c42c5-fb90-4199-a3b1-847454a8df17.png"
+                alt="KPI Dashboard"
+                className="rounded-3xl shadow-2xl max-w-full w-auto h-auto"
+              />
+            </div>
+          </div>
+        </section>
+
         {/* Services Content */}
         <section className="px-6 lg:px-8 py-24">
           <div className="mx-auto max-w-3xl">
