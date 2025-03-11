@@ -1,7 +1,9 @@
+
 import { ArrowRight, Check, ChevronDown, Briefcase, Settings, BarChart3 } from "lucide-react";
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
@@ -29,9 +31,9 @@ const Index = () => {
               <button className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors">
                 Get Started
               </button>
-              <button className="px-6 py-3 border border-primary text-primary rounded-full hover:bg-primary/10 transition-colors flex items-center gap-2">
+              <Link to="/our-services" className="px-6 py-3 border border-primary text-primary rounded-full hover:bg-primary/10 transition-colors flex items-center gap-2">
                 Our Services <ArrowRight className="w-4 h-4" />
-              </button>
+              </Link>
             </div>
           </div>
 
