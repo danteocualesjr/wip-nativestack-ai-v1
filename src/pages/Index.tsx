@@ -75,18 +75,18 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "AI Strategy Consulting",
-                  description: "Expert guidance to integrate AI into your business workflows",
+                  title: "Training in Essential AI Skills",
+                  description: "Engaging virtual events and hands-on demos showcasing the latest AI tools for your workflow.",
                   icon: <Briefcase className="w-8 h-8 text-primary" />,
                 },
                 {
-                  title: "Custom AI Development",
-                  description: "Tailor-made AI solutions to address your specific business needs",
+                  title: "Building or Curating a Stack of Tools",
+                  description: "Tailored no-code tools and micro-apps to automate workflows and enable data-driven decisions.",
                   icon: <Settings className="w-8 h-8 text-primary" />,
                 },
                 {
-                  title: "Data Analysis & Insights",
-                  description: "AI-powered analytics to unlock valuable insights from your data",
+                  title: "Your AI-Powered Sales Arm",
+                  description: "AI-driven sales support to personalize outreach, automate lead generation, and deliver actionable insights.",
                   icon: <BarChart3 className="w-8 h-8 text-primary" />,
                 },
               ].map((feature, index) => (
