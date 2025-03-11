@@ -43,34 +43,26 @@ const OurServices = () => {
           <div className="mx-auto max-w-3xl">
             {/* Service 1 */}
             <div className="mb-12 sm:mb-16">
+              <h2 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">Building Internal Tools and AI-Powered Systems for Businesses</h2>
+              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
+                We build AI-powered sales, productivity, and analytics tools—such as custom CRMs, dashboards, and SaaS applications—to help businesses streamline workflows and drive revenue.
+              </p>
+              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
+                Our core service is designing and developing internal tools and AI-powered systems that align with your company's unique needs. We specialize in creating custom CRMs, workflow automation tools, analytics dashboards, and SaaS applications that enhance productivity, improve decision-making, and optimize business processes. Whether you're a startup looking to scale operations or an enterprise aiming to boost efficiency, we build tailored, no-code and AI-driven solutions that integrate seamlessly into your existing workflows.
+              </p>
+              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
+                By automating repetitive tasks, enhancing data insights, and providing user-friendly internal tools, we empower your team to focus on high-impact work, make data-driven decisions, and ultimately increase revenue. Our approach ensures that your organization adopts AI in a way that is practical, scalable, and designed for real business growth.
+              </p>
+            </div>
+
+            {/* Service 2 */}
+            <div className="mb-12 sm:mb-16">
               <h2 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">Training in Essential AI Skills</h2>
               <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
                 Engaging virtual events and hands-on demos showcasing the latest AI tools and resources, with practical guidance on integrating them into your or your team's workflows.
               </p>
               <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
                 Our training sessions are designed to make AI accessible, actionable, and relevant to your day-to-day operations. We cover a range of topics tailored for both beginners and advanced users, including foundational AI concepts, building AI agents, and creating custom web apps using tools like v0, Cursor, and Replit Agent. By offering flexible training options—from introductory sessions to in-depth, specialized workshops—we ensure that every participant gains the skills needed to apply AI effectively, whether they're enhancing personal productivity or leading a team's AI transformation.
-              </p>
-            </div>
-
-            {/* Service 2 */}
-            <div className="mb-12 sm:mb-16">
-              <h2 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">Building or Curating a Stack of Tools</h2>
-              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
-                Developing or curating a tailored stack of no-code tools, including web apps and micro-apps, to automate workflows, enhance productivity, and enable data-driven decisions that elevate customer satisfaction and drive company revenue.
-              </p>
-              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
-                Our tool-building service focuses on creating a customized, AI-powered tech stack that aligns with your business goals. We specialize in integrating no-code solutions that empower your team to streamline tasks and optimize processes without the need for extensive coding knowledge. From automating repetitive workflows to developing micro-apps that solve specific challenges, we design each tool to fit seamlessly into your operations. This tailored approach not only boosts efficiency but also gives your team the insights needed to make data-driven choices, ultimately enhancing customer satisfaction and driving sustainable revenue growth.
-              </p>
-            </div>
-
-            {/* Service 3 */}
-            <div>
-              <h2 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">Your AI-Powered Sales Arm</h2>
-              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
-                Providing AI-driven sales support tailored to the unique needs of startups, enterprises, ed-tech companies, higher-ed institutions, healthcare providers, and business coaches and consultants.
-              </p>
-              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
-                NativeStack AI partners with your business to elevate your sales strategies through AI-driven solutions. Our support includes leveraging AI to personalize customer outreach, automate lead generation, and deliver actionable insights that refine your campaigns. By integrating AI into your sales efforts, we help your team increase efficiency, reach the right audience, and maximize engagement. This service is designed to make your organization more competitive, whether you're looking to scale quickly, deepen customer relationships, or break into new markets with data-backed strategies.
               </p>
             </div>
           </div>
