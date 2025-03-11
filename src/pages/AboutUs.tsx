@@ -25,19 +25,6 @@ const AboutUs = () => {
           </div>
         </section>
 
-        {/* NativeStack AI Logo Section */}
-        <section className="px-6 lg:px-8 py-16 bg-surface">
-          <div className="max-w-3xl mx-auto">
-            <div className="flex justify-center">
-              <img
-                src="/lovable-uploads/97ed7c5c-d209-41ae-88fa-20d8c82ced94.png"
-                alt="NativeStack AI Logo"
-                className="w-auto max-w-full h-auto max-h-96"
-              />
-            </div>
-          </div>
-        </section>
-
         {/* About Content */}
         <section className="px-6 lg:px-8 py-24">
           <div className="mx-auto max-w-3xl prose prose-lg">
