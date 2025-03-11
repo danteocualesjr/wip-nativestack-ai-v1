@@ -31,7 +31,7 @@ const Navigation = () => {
         <div className="flex items-center space-x-4">
           <Link to="/contact">
             <Button variant="ghost" className="hidden md:inline-flex text-secondary hover:text-primary hover:bg-primary/10">
-              Contact
+              Contact Us
             </Button>
           </Link>
           <a 
