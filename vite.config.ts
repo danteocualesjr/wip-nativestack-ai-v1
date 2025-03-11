@@ -1,6 +1,8 @@
+
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
+// Importing but not using the componentTagger
 import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
@@ -11,7 +13,8 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' && componentTagger(),
+    // Disabled componentTagger to remove the "Edit with Lovable" button
+    // mode === 'development' && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
