@@ -16,87 +16,87 @@ const Index = () => {
       {/* Main content with top padding for navigation */}
       <main className="pt-16">
         {/* Hero Section */}
-        <section className="relative overflow-hidden px-6 lg:px-8 py-24 sm:py-32">
+        <section className="relative overflow-hidden px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32">
           <div className="mx-auto max-w-7xl text-center">
-            <h1 className="text-4xl sm:text-6xl font-bold tracking-tight text-secondary mb-6">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-secondary mb-4 sm:mb-6">
               We help businesses thrive
               <br />
               <span className="text-primary">
                 with AI
               </span>
             </h1>
-            <p className="mx-auto max-w-2xl text-lg text-secondary mb-8">
+            <p className="mx-auto max-w-2xl text-base sm:text-lg text-secondary mb-6 sm:mb-8 px-4">
               We help businesses build tools and systems to streamline workflows and drive revenue.
             </p>
-            <div className="flex justify-center gap-4">
+            <div className="flex flex-col sm:flex-row justify-center gap-4 px-4">
               <a 
                 href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors"
+                className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors text-sm sm:text-base"
               >
                 Get Started
               </a>
-              <Link to="/our-services" className="px-6 py-3 border border-primary text-primary rounded-full hover:bg-primary/10 transition-colors flex items-center gap-2">
+              <Link to="/our-services" className="px-6 py-3 border border-primary text-primary rounded-full hover:bg-primary/10 transition-colors flex items-center justify-center gap-2 text-sm sm:text-base">
                 Our Services <ArrowRight className="w-4 h-4" />
               </Link>
             </div>
           </div>
 
           {/* Hero Image */}
-          <div className="relative mt-16">
+          <div className="relative mt-12 sm:mt-16">
             <div className="flex justify-center">
               <img
                 src="https://antimetal.com/images/hero/preview.png"
                 alt="Hero"
-                className="rounded-3xl shadow-2xl max-w-[90%] w-auto h-auto"
+                className="rounded-2xl sm:rounded-3xl shadow-2xl max-w-[95%] sm:max-w-[90%] w-auto h-auto"
               />
             </div>
           </div>
         </section>
 
         {/* Services Section - Updated with modern design */}
-        <section className="py-24 bg-gradient-to-b from-surface to-background px-6 lg:px-8">
+        <section className="py-16 sm:py-24 bg-gradient-to-b from-surface to-background px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
-            <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-secondary mb-4">Services designed for your business</h2>
-              <p className="text-secondary/80 max-w-2xl mx-auto">Tailored solutions to help your business leverage AI and drive growth</p>
+            <div className="text-center mb-12 sm:mb-16">
+              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary mb-3 sm:mb-4">Services designed for your business</h2>
+              <p className="text-secondary/80 max-w-2xl mx-auto text-sm sm:text-base px-4">Tailored solutions to help your business leverage AI and drive growth</p>
             </div>
             
-            <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {[
                 {
                   title: "Training in Essential AI Skills",
                   description: "Engaging virtual events and hands-on demos showcasing the latest AI tools and resources, with practical guidance on integrating them into your workflows.",
-                  icon: <Zap className="w-8 h-8 text-white" />,
+                  icon: <Zap className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#FFA07A] to-[#FF6347]",
                 },
                 {
                   title: "Building or Curating a Stack of Tools",
                   description: "Developing or curating a tailored stack of no-code tools, including web apps and micro-apps, to automate workflows and enhance productivity.",
-                  icon: <Settings className="w-8 h-8 text-white" />,
+                  icon: <Settings className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#6495ED] to-[#4169E1]",
                 },
                 {
                   title: "Your AI-Powered Sales Arm",
                   description: "Providing AI-driven sales support to personalize customer outreach, automate lead generation, and deliver actionable insights that refine your campaigns.",
-                  icon: <BarChart3 className="w-8 h-8 text-white" />,
+                  icon: <BarChart3 className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#9370DB] to-[#8A2BE2]",
                 },
               ].map((feature, index) => (
                 <div
                   key={index}
-                  className="p-8 rounded-2xl bg-white shadow-xl transition-all duration-300 hover:translate-y-[-8px] border border-border/10 group"
+                  className="p-6 sm:p-8 rounded-2xl bg-white shadow-xl transition-all duration-300 hover:translate-y-[-8px] border border-border/10 group"
                 >
-                  <div className={`mb-6 p-4 rounded-2xl bg-gradient-to-r ${feature.gradient} inline-block`}>
+                  <div className={`mb-5 sm:mb-6 p-3 sm:p-4 rounded-2xl bg-gradient-to-r ${feature.gradient} inline-block`}>
                     {feature.icon}
                   </div>
-                  <h3 className="text-xl font-semibold mb-3 text-secondary group-hover:text-primary transition-colors">{feature.title}</h3>
-                  <p className="text-secondary/80">{feature.description}</p>
-                  <div className="mt-6 pt-6 border-t border-border/30">
+                  <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3 text-secondary group-hover:text-primary transition-colors">{feature.title}</h3>
+                  <p className="text-secondary/80 text-sm sm:text-base">{feature.description}</p>
+                  <div className="mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-border/30">
                     <Link 
                       to="/our-services" 
-                      className="text-primary font-medium flex items-center gap-2 group-hover:gap-3 transition-all"
+                      className="text-primary font-medium text-sm sm:text-base flex items-center gap-2 group-hover:gap-3 transition-all"
                     >
                       Learn more <ArrowRight className="w-4 h-4" />
                     </Link>
@@ -108,9 +108,9 @@ const Index = () => {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-24 px-6 lg:px-8">
+        <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
-            <h2 className="text-3xl font-bold text-center mb-16 text-secondary">Frequently Asked Questions</h2>
+            <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10 sm:mb-16 text-secondary">Frequently Asked Questions</h2>
             <div className="space-y-4">
               {[
                 {
@@ -131,10 +131,10 @@ const Index = () => {
                   className="border border-border rounded-lg overflow-hidden"
                 >
                   <button
-                    className="w-full px-6 py-4 text-left flex justify-between items-center hover:bg-background/50"
+                    className="w-full px-4 sm:px-6 py-3 sm:py-4 text-left flex justify-between items-center hover:bg-background/50"
                     onClick={() => setActiveAccordion(activeAccordion === index ? null : index)}
                   >
-                    <span className="font-medium">{faq.question}</span>
+                    <span className="font-medium text-sm sm:text-base">{faq.question}</span>
                     <ChevronDown
                       className={`w-5 h-5 transition-transform ${
                         activeAccordion === index ? "transform rotate-180" : ""
@@ -142,8 +142,8 @@ const Index = () => {
                     />
                   </button>
                   {activeAccordion === index && (
-                    <div className="px-6 py-4 bg-background/50">
-                      <p className="text-secondary">{faq.answer}</p>
+                    <div className="px-4 sm:px-6 py-3 sm:py-4 bg-background/50">
+                      <p className="text-secondary text-sm sm:text-base">{faq.answer}</p>
                     </div>
                   )}
                 </div>
@@ -153,17 +153,17 @@ const Index = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-24 bg-primary text-white px-6 lg:px-8">
+        <section className="py-16 sm:py-24 bg-primary text-white px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl text-center">
-            <h2 className="text-3xl sm:text-5xl font-bold mb-8">Ready to transform your business with AI?</h2>
-            <p className="text-white/80 mb-8 max-w-2xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8">Ready to transform your business with AI?</h2>
+            <p className="text-white/80 mb-6 sm:mb-8 max-w-2xl mx-auto text-sm sm:text-base">
               Join innovative companies that are already leveraging our AI expertise to drive growth.
             </p>
             <a 
               href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="px-8 py-4 bg-white text-primary rounded-full font-semibold hover:bg-white/90 transition-colors inline-block"
+              className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-primary rounded-full font-semibold hover:bg-white/90 transition-colors inline-block text-sm sm:text-base"
             >
               Schedule a Consultation
             </a>
