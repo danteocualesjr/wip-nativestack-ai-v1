@@ -2,7 +2,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { DollarSign, Check, ArrowRight, Phone } from "lucide-react";
+import { DollarSign, Check, ArrowRight, Phone, Rocket } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Pricing = () => {
@@ -39,7 +39,52 @@ const Pricing = () => {
 
         {/* Pricing Content */}
         <section className="px-6 lg:px-8 py-24">
-          <div className="max-w-4xl mx-auto">
+          <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+            {/* Growth Plan */}
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+              <div className="p-8 md:p-12 border-b border-gray-100">
+                <div className="flex items-center gap-3 mb-4">
+                  <span className="inline-flex items-center justify-center bg-primary/10 w-12 h-12 rounded-full">
+                    <Rocket className="h-6 w-6 text-primary" />
+                  </span>
+                  <h2 className="text-2xl md:text-3xl font-bold">Growth Plan</h2>
+                </div>
+                <div className="flex items-baseline mb-6">
+                  <span className="text-5xl font-bold">$5,000</span>
+                  <span className="text-xl text-muted-foreground ml-2">/month</span>
+                </div>
+                <p className="text-lg text-secondary/80 mb-6">
+                  Best for businesses needing ongoing AI-powered internal tool development.
+                </p>
+              </div>
+              
+              <div className="p-8 md:p-12">
+                <h3 className="text-xl font-semibold mb-6">What's included:</h3>
+                <ul className="space-y-4">
+                  {[
+                    "Unlimited requests & revisions",
+                    "Three production-ready MVPs per month",
+                    "Weekly strategy & implementation sessions",
+                    "Data analysis & actionable insights",
+                    "Integration with existing systems",
+                    "24/7 priority support",
+                    "Monthly performance reports"
+                  ].map((item, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <Check className="h-5 w-5 text-primary mt-1 shrink-0" />
+                      <span className="text-secondary/90">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <div className="mt-8 p-4 bg-gray-50 rounded-lg">
+                  <p className="text-secondary/90 font-medium">
+                    <span className="font-semibold text-primary">Ideal for:</span> Startups & SMEs that need continuous AI integration and tool development.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Enterprise Plan */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <div className="p-8 md:p-12 border-b border-gray-100">
                 <div className="flex items-center gap-3 mb-4">
@@ -80,23 +125,23 @@ const Pricing = () => {
                 </ul>
               </div>
             </div>
+          </div>
 
-            {/* Book a Call Section - Updated color to match the brand */}
-            <div className="mt-16 bg-zinc-900 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row justify-between items-center gap-6">
-              <div className="text-white">
-                <h3 className="text-2xl md:text-3xl font-bold mb-3">Book a call</h3>
-                <p className="text-white/70">Book a 15-minute free call with our team</p>
-              </div>
-              <a 
-                href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="rounded-full py-6 px-8 bg-primary text-white hover:bg-primary/90 shadow-lg flex items-center gap-2"
-              >
-                <Phone className="h-5 w-5" />
-                Book a call
-              </a>
+          {/* Book a Call Section - Updated color to match the brand */}
+          <div className="mt-16 bg-zinc-900 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row justify-between items-center gap-6 max-w-5xl mx-auto">
+            <div className="text-white">
+              <h3 className="text-2xl md:text-3xl font-bold mb-3">Book a call</h3>
+              <p className="text-white/70">Book a 15-minute free call with our team</p>
             </div>
+            <a 
+              href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="rounded-full py-6 px-8 bg-primary text-white hover:bg-primary/90 shadow-lg flex items-center gap-2"
+            >
+              <Phone className="h-5 w-5" />
+              Book a call
+            </a>
           </div>
         </section>
       </main>
