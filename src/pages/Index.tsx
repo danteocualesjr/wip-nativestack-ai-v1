@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 
 const Index = () => {
+  
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
 
   return (
