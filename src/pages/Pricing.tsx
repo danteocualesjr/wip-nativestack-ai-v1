@@ -23,8 +23,7 @@ const Pricing = () => {
               Flexible Pricing
             </h1>
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-white/80 mb-12">
-              Partner with a team dedicated to driving impactful digital transformations. Our proven strategies and 
-              cutting-edge solutions empower your business to scale and thrive in today's fast-paced digital landscape.
+              Partner with NativeStack AI to build AI-powered internal tools and systems that streamline workflows, enhance productivity, and drive revenue. Our tailored solutions empower businesses to scale efficiently and stay ahead in an AI-driven world.
             </p>
             <a 
               href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
@@ -40,21 +39,21 @@ const Pricing = () => {
         {/* Pricing Content */}
         <section className="px-6 lg:px-8 py-24">
           <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
-            {/* Growth Plan */}
+            {/* Startup Plan */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <div className="p-8 md:p-12 border-b border-gray-100">
                 <div className="flex items-center gap-3 mb-4">
                   <span className="inline-flex items-center justify-center bg-primary/10 w-12 h-12 rounded-full">
                     <Rocket className="h-6 w-6 text-primary" />
                   </span>
-                  <h2 className="text-2xl md:text-3xl font-bold">Growth Plan</h2>
+                  <h2 className="text-2xl md:text-3xl font-bold">Startup Plan</h2>
                 </div>
                 <div className="flex items-baseline mb-6">
                   <span className="text-5xl font-bold">$5,000</span>
                   <span className="text-xl text-muted-foreground ml-2">/month</span>
                 </div>
                 <p className="text-lg text-secondary/80 mb-6">
-                  Best for businesses needing ongoing AI-powered internal tool development.
+                  For early-stage startups and small teams looking to leverage AI-powered tools efficiently.
                 </p>
               </div>
               
@@ -62,13 +61,12 @@ const Pricing = () => {
                 <h3 className="text-xl font-semibold mb-6">What's included:</h3>
                 <ul className="space-y-4">
                   {[
-                    "Unlimited requests & revisions",
-                    "Three production-ready MVPs per month",
-                    "Weekly strategy & implementation sessions",
-                    "Data analysis & actionable insights",
-                    "Integration with existing systems",
-                    "24/7 priority support",
-                    "Monthly performance reports"
+                    "Up to 10 requests & revisions per month",
+                    "Up to 3 production-ready MVPs per month (e.g., custom CRMs, dashboards, automation tools, SaaS applications)",
+                    "No-code & AI-powered solutions built with tools like Zapier, Replit Agent, and v0.dev",
+                    "Workflow automation & optimization for sales, productivity, and analytics",
+                    "Weekly progress updates & strategy calls",
+                    "Email & Slack support"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <Check className="h-5 w-5 text-primary mt-1 shrink-0" />
@@ -78,13 +76,13 @@ const Pricing = () => {
                 </ul>
                 <div className="mt-8 p-4 bg-gray-50 rounded-lg">
                   <p className="text-secondary/90 font-medium">
-                    <span className="font-semibold text-primary">Ideal for:</span> Startups & SMEs that need continuous AI integration and tool development.
+                    <span className="font-semibold text-primary">Ideal for:</span> Early-stage startups and small teams looking to leverage AI-powered tools efficiently.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Enterprise Plan - UPDATED */}
+            {/* Enterprise Plan */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <div className="p-8 md:p-12 border-b border-gray-100">
                 <div className="flex items-center gap-3 mb-4">
@@ -95,10 +93,10 @@ const Pricing = () => {
                 </div>
                 <div className="flex items-baseline mb-6">
                   <span className="text-5xl font-bold">$10,000</span>
-                  <span className="text-xl text-muted-foreground ml-2">/project</span>
+                  <span className="text-xl text-muted-foreground ml-2">/month</span>
                 </div>
                 <p className="text-lg text-secondary/80 mb-6">
-                  One-time AI-powered tool development for companies needing specific solutions.
+                  For scaling businesses and enterprises that need AI-powered tools at scale.
                 </p>
               </div>
               
@@ -106,29 +104,29 @@ const Pricing = () => {
                 <h3 className="text-xl font-semibold mb-6">What's included:</h3>
                 <ul className="space-y-4">
                   {[
-                    "Custom AI-powered internal tool (SaaS, dashboards, automation, etc.)",
-                    "Full design, development, and deployment",
-                    "Custom integrations with APIs & databases",
-                    "2-month post-launch support",
-                    "AI workflow automation (if applicable)",
-                    "Optional training session for internal teams"
+                    "Unlimited requests & revisions",
+                    "Up to 5 production-ready MVPs per month",
+                    "Custom AI-powered internal tools, including advanced automation, analytics dashboards, and enterprise-grade SaaS applications",
+                    "AI-driven workflow optimization to improve efficiency across departments",
+                    "Dedicated Slack channel & priority support",
+                    "Bi-weekly strategy calls for roadmap planning & execution"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-primary mt-1 shrink-0" />
+                      <span className="text-primary shrink-0 mt-1">🚀</span>
                       <span className="text-secondary/90">{item}</span>
                     </li>
                   ))}
                 </ul>
                 <div className="mt-8 p-4 bg-gray-50 rounded-lg">
                   <p className="text-secondary/90 font-medium">
-                    <span className="font-semibold text-primary">Ideal for:</span> Companies that need a single AI-powered tool without a long-term engagement.
+                    <span className="font-semibold text-primary">Ideal for:</span> Scaling businesses and enterprises that need AI-powered tools at scale.
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Book a Call Section - Updated color to match the brand */}
+          {/* Book a Call Section */}
           <div className="mt-16 bg-zinc-900 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row justify-between items-center gap-6 max-w-5xl mx-auto">
             <div className="text-white">
               <h3 className="text-2xl md:text-3xl font-bold mb-3">Book a call</h3>
