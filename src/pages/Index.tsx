@@ -1,4 +1,4 @@
-import { ArrowRight, Check, ChevronDown, Briefcase, Settings, BarChart3 } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, Zap, Database, LineChart } from "lucide-react";
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -54,41 +54,54 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Services Section */}
-        <section className="py-24 bg-surface px-6 lg:px-8">
+        {/* Services Section - Modernized */}
+        <section className="py-24 bg-gradient-to-br from-surface to-background px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div className="text-center mb-16">
-              <h2 className="text-4xl font-bold text-secondary mb-4">Services designed for your business</h2>
+              <h2 className="text-4xl font-bold text-secondary mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/70">Services designed for your business</h2>
               <p className="text-secondary/80 max-w-2xl mx-auto">Tailored solutions to help your business leverage AI and drive growth</p>
             </div>
             
             <div className="grid md:grid-cols-3 gap-8">
               {[
                 {
-                  title: "Training in Essential AI Skills",
+                  title: "AI Skills Training",
                   description: "Engaging virtual events and hands-on demos showcasing the latest AI tools for your workflow.",
-                  icon: <Briefcase className="w-8 h-8 text-primary" />,
+                  icon: <Zap className="w-8 h-8 text-white" />,
+                  gradient: "from-[#FF6601] to-[#FFA366]",
                 },
                 {
-                  title: "Building or Curating a Stack of Tools",
+                  title: "Custom Tool Development",
                   description: "Tailored no-code tools and micro-apps to automate workflows and enable data-driven decisions.",
-                  icon: <Settings className="w-8 h-8 text-primary" />,
+                  icon: <Database className="w-8 h-8 text-white" />,
+                  gradient: "from-[#FF6601] to-[#FFA366]",
                 },
                 {
-                  title: "Your AI-Powered Sales Arm",
+                  title: "AI-Powered Sales",
                   description: "AI-driven sales support to personalize outreach, automate lead generation, and deliver actionable insights.",
-                  icon: <BarChart3 className="w-8 h-8 text-primary" />,
+                  icon: <LineChart className="w-8 h-8 text-white" />,
+                  gradient: "from-[#FF6601] to-[#FFA366]",
                 },
-              ].map((feature, index) => (
+              ].map((service, index) => (
                 <div
                   key={index}
-                  className="p-8 rounded-2xl bg-white shadow-lg hover:shadow-xl transition-all duration-300 border border-border/30 hover:border-primary/30 group"
+                  className="rounded-2xl overflow-hidden transform transition-all duration-300 hover:translate-y-[-8px] hover:shadow-xl group bg-white shadow-lg"
                 >
-                  <div className="mb-6 p-4 rounded-full bg-primary/10 inline-block group-hover:bg-primary/20 transition-colors">
-                    {feature.icon}
+                  <div className={`h-24 flex items-center justify-center bg-gradient-to-r ${service.gradient}`}>
+                    <div className="rounded-full p-4 bg-white/10 backdrop-blur-sm">
+                      {service.icon}
+                    </div>
                   </div>
-                  <h3 className="text-xl font-semibold mb-3 text-secondary group-hover:text-primary transition-colors">{feature.title}</h3>
-                  <p className="text-secondary/80">{feature.description}</p>
+                  <div className="p-8">
+                    <h3 className="text-xl font-semibold mb-3 text-secondary group-hover:text-primary transition-colors">{service.title}</h3>
+                    <p className="text-secondary/80">{service.description}</p>
+                    <Link 
+                      to="/our-services" 
+                      className="mt-6 inline-flex items-center text-primary font-medium group-hover:underline"
+                    >
+                      Learn more <ArrowRight className="ml-2 w-4 h-4" />
+                    </Link>
+                  </div>
                 </div>
               ))}
             </div>
