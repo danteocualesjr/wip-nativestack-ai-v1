@@ -12,8 +12,8 @@ const Pricing = () => {
       
       {/* Main content with top padding for navigation */}
       <main className="pt-16">
-        {/* Hero Section */}
-        <section className="px-6 lg:px-8 py-24 bg-gradient-to-br from-[#9b87f5] to-[#D946EF] text-white">
+        {/* Hero Section - Updated gradient colors to match the site's color scheme */}
+        <section className="px-6 lg:px-8 py-24 bg-gradient-to-br from-[#FF9D5C] to-[#FF6601] text-white">
           <div className="max-w-5xl mx-auto text-center">
             <div className="inline-block bg-black/20 backdrop-blur-sm px-4 py-1 rounded-full mb-4">
               <span className="text-sm font-medium">Pricing</span>
@@ -76,13 +76,13 @@ const Pricing = () => {
               </div>
             </div>
 
-            {/* Book a Call Section */}
+            {/* Book a Call Section - Updated color to match the brand */}
             <div className="mt-16 bg-zinc-900 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row justify-between items-center gap-6">
               <div className="text-white">
                 <h3 className="text-2xl md:text-3xl font-bold mb-3">Book a call</h3>
                 <p className="text-white/70">Book a 15-minute free call with our team</p>
               </div>
-              <Button className="rounded-full py-6 px-8 bg-[#D946EF] text-white hover:bg-[#D946EF]/90 shadow-lg flex items-center gap-2">
+              <Button className="rounded-full py-6 px-8 bg-primary text-white hover:bg-primary/90 shadow-lg flex items-center gap-2">
                 <Phone className="h-5 w-5" />
                 Book a call
               </Button>
