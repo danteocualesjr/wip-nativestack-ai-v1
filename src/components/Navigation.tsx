@@ -34,9 +34,14 @@ const Navigation = () => {
               Contact
             </Button>
           </Link>
-          <Button className="bg-primary text-white hover:bg-primary/90">
+          <a 
+            href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="bg-primary text-white hover:bg-primary/90 h-10 px-4 py-2 rounded-md inline-flex items-center justify-center whitespace-nowrap text-sm font-medium"
+          >
             Get Started
-          </Button>
+          </a>
         </div>
       </div>
     </nav>

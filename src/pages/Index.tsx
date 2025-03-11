@@ -28,9 +28,14 @@ const Index = () => {
               We help businesses build tools and systems to streamline workflows and drive revenue.
             </p>
             <div className="flex justify-center gap-4">
-              <button className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors">
+              <a 
+                href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="px-6 py-3 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors"
+              >
                 Get Started
-              </button>
+              </a>
               <Link to="/our-services" className="px-6 py-3 border border-primary text-primary rounded-full hover:bg-primary/10 transition-colors flex items-center gap-2">
                 Our Services <ArrowRight className="w-4 h-4" />
               </Link>
@@ -152,9 +157,14 @@ const Index = () => {
             <p className="text-white/80 mb-8 max-w-2xl mx-auto">
               Join innovative companies that are already leveraging our AI expertise to drive growth.
             </p>
-            <button className="px-8 py-4 bg-white text-primary rounded-full font-semibold hover:bg-white/90 transition-colors">
+            <a 
+              href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="px-8 py-4 bg-white text-primary rounded-full font-semibold hover:bg-white/90 transition-colors inline-block"
+            >
               Schedule a Consultation
-            </button>
+            </a>
           </div>
         </section>
       </main>

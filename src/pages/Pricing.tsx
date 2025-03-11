@@ -26,9 +26,14 @@ const Pricing = () => {
               Partner with a team dedicated to driving impactful digital transformations. Our proven strategies and 
               cutting-edge solutions empower your business to scale and thrive in today's fast-paced digital landscape.
             </p>
-            <Button className="rounded-full text-lg py-6 px-8 bg-white text-primary hover:bg-white/90 shadow-lg flex items-center gap-2 mx-auto">
+            <a 
+              href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="rounded-full text-lg py-6 px-8 bg-white text-primary hover:bg-white/90 shadow-lg flex items-center gap-2 mx-auto inline-flex"
+            >
               Get Started Today <ArrowRight className="h-5 w-5" />
-            </Button>
+            </a>
           </div>
         </section>
 
@@ -82,10 +87,15 @@ const Pricing = () => {
                 <h3 className="text-2xl md:text-3xl font-bold mb-3">Book a call</h3>
                 <p className="text-white/70">Book a 15-minute free call with our team</p>
               </div>
-              <Button className="rounded-full py-6 px-8 bg-primary text-white hover:bg-primary/90 shadow-lg flex items-center gap-2">
+              <a 
+                href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="rounded-full py-6 px-8 bg-primary text-white hover:bg-primary/90 shadow-lg flex items-center gap-2"
+              >
                 <Phone className="h-5 w-5" />
                 Book a call
-              </Button>
+              </a>
             </div>
           </div>
         </section>
