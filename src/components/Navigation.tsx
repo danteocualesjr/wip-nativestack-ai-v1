@@ -29,9 +29,11 @@ const Navigation = () => {
         </div>
 
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" className="hidden md:inline-flex text-secondary hover:text-primary hover:bg-primary/10">
-            Contact
-          </Button>
+          <Link to="/contact">
+            <Button variant="ghost" className="hidden md:inline-flex text-secondary hover:text-primary hover:bg-primary/10">
+              Contact
+            </Button>
+          </Link>
           <Button className="bg-primary text-white hover:bg-primary/90">
             Get Started
           </Button>
