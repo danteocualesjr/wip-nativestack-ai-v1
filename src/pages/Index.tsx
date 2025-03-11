@@ -67,19 +67,19 @@ const Index = () => {
               {[
                 {
                   title: "Training in Essential AI Skills",
-                  description: "Engaging virtual events and hands-on demos showcasing the latest AI tools and resources, with practical guidance on integrating them into your workflows.",
+                  description: "Engaging virtual events and hands-on demos showcasing the latest AI tools and resources, with practical guidance on integrating them into your or your team's workflows.",
                   icon: <Zap className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#FFA07A] to-[#FF6347]",
                 },
                 {
-                  title: "Building or Curating a Stack of Tools",
-                  description: "Developing or curating a tailored stack of no-code tools, including web apps and micro-apps, to automate workflows and enhance productivity.",
+                  title: "Building Internal Tools",
+                  description: "We design and develop custom internal tools that align with your company's unique needs, including custom CRMs, workflow automation tools, and analytics dashboards.",
                   icon: <Settings className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#6495ED] to-[#4169E1]",
                 },
                 {
-                  title: "Your AI-Powered Sales Arm",
-                  description: "Providing AI-driven sales support to personalize customer outreach, automate lead generation, and deliver actionable insights that refine your campaigns.",
+                  title: "AI-Powered Systems for Businesses",
+                  description: "We build tailored, no-code and AI-driven solutions that automate repetitive tasks, enhance data insights, and provide user-friendly interfaces to drive business growth.",
                   icon: <BarChart3 className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#9370DB] to-[#8A2BE2]",
                 },
