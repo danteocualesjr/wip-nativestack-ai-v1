@@ -84,7 +84,7 @@ const Pricing = () => {
               </div>
             </div>
 
-            {/* Enterprise Plan */}
+            {/* Enterprise Plan - UPDATED */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <div className="p-8 md:p-12 border-b border-gray-100">
                 <div className="flex items-center gap-3 mb-4">
@@ -94,11 +94,11 @@ const Pricing = () => {
                   <h2 className="text-2xl md:text-3xl font-bold">Enterprise Plan</h2>
                 </div>
                 <div className="flex items-baseline mb-6">
-                  <span className="text-5xl font-bold">$5,000</span>
-                  <span className="text-xl text-muted-foreground ml-2">/month</span>
+                  <span className="text-5xl font-bold">$10,000</span>
+                  <span className="text-xl text-muted-foreground ml-2">/project</span>
                 </div>
                 <p className="text-lg text-secondary/80 mb-6">
-                  Comprehensive AI transformation services tailored for businesses ready to leverage cutting-edge technology.
+                  One-time AI-powered tool development for companies needing specific solutions.
                 </p>
               </div>
               
@@ -106,16 +106,12 @@ const Pricing = () => {
                 <h3 className="text-xl font-semibold mb-6">What's included:</h3>
                 <ul className="space-y-4">
                   {[
-                    "Three production-ready MVPs per quarter",
-                    "Ongoing maintenance of all systems and tools",
-                    "Weekly strategy and implementation sessions",
-                    "Custom AI training for your team (up to 10 members)",
-                    "Tailored tech stack curation and implementation",
-                    "AI-powered sales support and optimization",
-                    "Data analysis and actionable insights",
-                    "Integration with existing systems",
-                    "24/7 priority support",
-                    "Monthly performance reports"
+                    "Custom AI-powered internal tool (SaaS, dashboards, automation, etc.)",
+                    "Full design, development, and deployment",
+                    "Custom integrations with APIs & databases",
+                    "2-month post-launch support",
+                    "AI workflow automation (if applicable)",
+                    "Optional training session for internal teams"
                   ].map((item, i) => (
                     <li key={i} className="flex items-start gap-3">
                       <Check className="h-5 w-5 text-primary mt-1 shrink-0" />
@@ -123,6 +119,11 @@ const Pricing = () => {
                     </li>
                   ))}
                 </ul>
+                <div className="mt-8 p-4 bg-gray-50 rounded-lg">
+                  <p className="text-secondary/90 font-medium">
+                    <span className="font-semibold text-primary">Ideal for:</span> Companies that need a single AI-powered tool without a long-term engagement.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
