@@ -9,17 +9,24 @@ const OurServices = () => {
       
       {/* Main content with top padding for navigation */}
       <main className="pt-16">
-        {/* Hero Section */}
-        <section className="px-6 lg:px-8 py-24">
-          <div className="mx-auto max-w-3xl text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-secondary mb-8">
-              Our <span className="text-primary">Services</span>
+        {/* Hero Section with gradient matching Pricing page */}
+        <section className="px-6 lg:px-8 py-24 bg-gradient-to-br from-[#FF9D5C] to-[#FF6601] text-white">
+          <div className="max-w-5xl mx-auto text-center">
+            <div className="inline-block bg-black/20 backdrop-blur-sm px-4 py-1 rounded-full mb-4">
+              <span className="text-sm font-medium">Our Services</span>
+            </div>
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-8">
+              Our <span className="text-white">Services</span>
             </h1>
+            <p className="max-w-2xl mx-auto text-lg md:text-xl text-white/80 mb-12">
+              Comprehensive AI solutions designed to transform your business operations, 
+              enhance productivity, and drive sustainable growth.
+            </p>
           </div>
         </section>
 
         {/* Services Content */}
-        <section className="px-6 lg:px-8 pb-24">
+        <section className="px-6 lg:px-8 py-24">
           <div className="mx-auto max-w-3xl">
             {/* Service 1 */}
             <div className="mb-16">

@@ -9,17 +9,24 @@ const AboutUs = () => {
       
       {/* Main content with top padding for navigation */}
       <main className="pt-16">
-        {/* Hero Section */}
-        <section className="px-6 lg:px-8 py-24">
-          <div className="mx-auto max-w-3xl text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-secondary mb-8">
-              About <span className="text-primary">NativeStack AI</span>
+        {/* Hero Section with gradient matching Pricing page */}
+        <section className="px-6 lg:px-8 py-24 bg-gradient-to-br from-[#FF9D5C] to-[#FF6601] text-white">
+          <div className="max-w-5xl mx-auto text-center">
+            <div className="inline-block bg-black/20 backdrop-blur-sm px-4 py-1 rounded-full mb-4">
+              <span className="text-sm font-medium">About Us</span>
+            </div>
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-8">
+              About <span className="text-white">NativeStack AI</span>
             </h1>
+            <p className="max-w-2xl mx-auto text-lg md:text-xl text-white/80 mb-12">
+              Empowering businesses to thrive in the AI era by providing the tools, 
+              strategies, and support needed to become truly AI-native.
+            </p>
           </div>
         </section>
 
         {/* About Content */}
-        <section className="px-6 lg:px-8 pb-24">
+        <section className="px-6 lg:px-8 py-24">
           <div className="mx-auto max-w-3xl prose prose-lg">
             <p className="mb-6 text-secondary/90 leading-relaxed">
               At NativeStack AI, our mission is to help businesses thrive by transitioning to the AI era and becoming AI-native. We equip organizations with the tools and strategies needed to succeed in an AI-driven world. Our goal is simple yet powerful: to enable businesses across industries to adopt AI at their core, starting with essential areas like sales. By leveraging no-code tools, building custom micro-apps, and curating AI-powered solutions, we empower clients to streamline workflows, make data-driven decisions, and achieve maximum impact.
