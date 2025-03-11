@@ -1,4 +1,3 @@
-
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -50,7 +49,7 @@ const Footer = () => {
           </p>
           <div className="flex items-center space-x-6">
             <Link to="#" className="text-white/70 hover:text-white transition-colors">
-              Twitter
+              X/Twitter
             </Link>
             <Link to="#" className="text-white/70 hover:text-white transition-colors">
               LinkedIn
