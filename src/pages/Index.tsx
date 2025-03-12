@@ -1,23 +1,13 @@
+
 import { ArrowRight, Check, ChevronDown, Zap, Settings, BarChart3 } from "lucide-react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
 
 const Index = () => {
+  
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
-  const [scrollPosition, setScrollPosition] = useState(0);
-
-  useEffect(() => {
-    const animationInterval = setInterval(() => {
-      setScrollPosition((prev) => {
-        const newPosition = prev + 1;
-        return newPosition > 100 ? 0 : newPosition;
-      });
-    }, 50);
-
-    return () => clearInterval(animationInterval);
-  }, []);
 
   return (
     <div className="min-h-screen bg-background">
@@ -55,38 +45,12 @@ const Index = () => {
 
           {/* Hero Image */}
           <div className="relative mt-12 sm:mt-16">
-            <div className="flex justify-center overflow-hidden rounded-2xl sm:rounded-3xl">
-              <div 
-                className="relative w-full max-w-[95%] sm:max-w-[90%] transition-transform duration-[50ms]"
-                style={{
-                  transform: `translateY(-${scrollPosition}px)`,
-                }}
-              >
-                <img
-                  src="https://antimetal.com/images/hero/preview.png"
-                  alt="Hero"
-                  className="shadow-2xl"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    minHeight: "600px",
-                    objectFit: "cover",
-                    objectPosition: "top",
-                  }}
-                />
-                <img
-                  src="https://antimetal.com/images/hero/preview.png"
-                  alt="Hero"
-                  className="absolute top-[100%] left-0 shadow-2xl"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    minHeight: "600px",
-                    objectFit: "cover",
-                    objectPosition: "top",
-                  }}
-                />
-              </div>
+            <div className="flex justify-center">
+              <img
+                src="https://antimetal.com/images/hero/preview.png"
+                alt="Hero"
+                className="rounded-2xl sm:rounded-3xl shadow-2xl max-w-[95%] sm:max-w-[90%] w-auto h-auto"
+              />
             </div>
           </div>
         </section>
