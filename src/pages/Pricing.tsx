@@ -104,7 +104,6 @@ const Pricing = () => {
                   {[
                     "Unlimited requests & revisions",
                     "Up to 5 production-ready MVPs per month (e.g., custom CRMs, dashboards, automation tools, SaaS applications)",
-                    "Custom AI-powered internal tools, including advanced automation, analytics dashboards, and others",
                     "AI-driven workflow optimization to improve efficiency across departments",
                     "Dedicated Slack channel & priority support",
                     "Bi-weekly strategy calls for roadmap planning & execution"
@@ -149,4 +148,3 @@ const Pricing = () => {
 };
 
 export default Pricing;
-
