@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 const Index = () => {
   const [activeAccordion, setActiveAccordion] = useState<number | null>(null);
   const [scrollPosition, setScrollPosition] = useState(0);
+  const [hoverPosition, setHoverPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const animationInterval = setInterval(() => {
@@ -16,7 +17,20 @@ const Index = () => {
       });
     }, 50);
 
-    return () => clearInterval(animationInterval);
+    const hoverInterval = setInterval(() => {
+      setHoverPosition((prev) => {
+        const time = Date.now() / 1000;
+        return {
+          x: Math.sin(time) * 50,
+          y: Math.cos(time) * 30
+        };
+      });
+    }, 50);
+
+    return () => {
+      clearInterval(animationInterval);
+      clearInterval(hoverInterval);
+    };
   }, []);
 
   return (
@@ -57,35 +71,55 @@ const Index = () => {
           <div className="relative mt-12 sm:mt-16">
             <div className="flex justify-center overflow-hidden rounded-2xl sm:rounded-3xl">
               <div 
-                className="relative w-full max-w-[95%] sm:max-w-[90%] transition-transform duration-[50ms]"
+                className="relative w-full max-w-[95%] sm:max-w-[90%] transition-all duration-[50ms]"
                 style={{
-                  transform: `translateY(-${scrollPosition}px)`,
+                  transform: `translateY(-${scrollPosition}px) translate(${hoverPosition.x}px, ${hoverPosition.y}px)`,
                 }}
               >
-                <img
-                  src="https://antimetal.com/images/hero/preview.png"
-                  alt="Hero"
-                  className="shadow-2xl"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    minHeight: "600px",
-                    objectFit: "cover",
-                    objectPosition: "top",
-                  }}
-                />
-                <img
-                  src="https://antimetal.com/images/hero/preview.png"
-                  alt="Hero"
-                  className="absolute top-[100%] left-0 shadow-2xl"
-                  style={{
-                    width: "100%",
-                    height: "auto",
-                    minHeight: "600px",
-                    objectFit: "cover",
-                    objectPosition: "top",
-                  }}
-                />
+                <div className="relative">
+                  <img
+                    src="https://antimetal.com/images/hero/preview.png"
+                    alt="Hero"
+                    className="shadow-2xl transition-all duration-300"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      minHeight: "600px",
+                      objectFit: "cover",
+                      objectPosition: "top",
+                      filter: `brightness(${1 + Math.sin(Date.now() / 1000) * 0.05})`,
+                    }}
+                  />
+                  <div 
+                    className="absolute top-0 left-0 w-16 h-16 pointer-events-none"
+                    style={{
+                      background: "radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 70%)",
+                      transform: `translate(${hoverPosition.x * 2}px, ${hoverPosition.y * 2}px)`,
+                    }}
+                  />
+                </div>
+                <div className="relative">
+                  <img
+                    src="https://antimetal.com/images/hero/preview.png"
+                    alt="Hero"
+                    className="absolute top-[100%] left-0 shadow-2xl transition-all duration-300"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      minHeight: "600px",
+                      objectFit: "cover",
+                      objectPosition: "top",
+                      filter: `brightness(${1 + Math.cos(Date.now() / 1000) * 0.05})`,
+                    }}
+                  />
+                  <div 
+                    className="absolute top-[100%] left-0 w-16 h-16 pointer-events-none"
+                    style={{
+                      background: "radial-gradient(circle, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0) 70%)",
+                      transform: `translate(${hoverPosition.x * 2}px, ${hoverPosition.y * 2}px)`,
+                    }}
+                  />
+                </div>
               </div>
             </div>
           </div>
