@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -63,7 +62,6 @@ const Pricing = () => {
                   {[
                     "Up to 10 requests & revisions per month",
                     "Up to 3 production-ready MVPs per month (e.g., custom CRMs, dashboards, automation tools, SaaS applications)",
-                    "No-code & AI-powered solutions built with tools like Zapier, Replit Agent, and v0.dev",
                     "Workflow automation & optimization for sales, productivity, and analytics",
                     "Weekly progress updates & strategy calls",
                     "Email & Slack support"
@@ -105,8 +103,8 @@ const Pricing = () => {
                 <ul className="space-y-4">
                   {[
                     "Unlimited requests & revisions",
-                    "Up to 5 production-ready MVPs per month",
-                    "Custom AI-powered internal tools, including advanced automation, analytics dashboards, and enterprise-grade SaaS applications",
+                    "Up to 5 production-ready MVPs per month (e.g., custom CRMs, dashboards, automation tools, SaaS applications)",
+                    "Custom AI-powered internal tools, including advanced automation, analytics dashboards, and others",
                     "AI-driven workflow optimization to improve efficiency across departments",
                     "Dedicated Slack channel & priority support",
                     "Bi-weekly strategy calls for roadmap planning & execution"
@@ -151,3 +149,4 @@ const Pricing = () => {
 };
 
 export default Pricing;
+
