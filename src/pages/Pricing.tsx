@@ -1,7 +1,8 @@
+
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { DollarSign, Check, ArrowRight, Phone, Rocket } from "lucide-react";
+import { Phone, ArrowRight, Rocket, DollarSign, Check } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Pricing = () => {
@@ -41,19 +42,24 @@ const Pricing = () => {
             {/* Startup Plan */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <div className="p-8 md:p-12 border-b border-gray-100">
-                <div className="flex items-center gap-3 mb-4">
+                <div className="flex items-center gap-3 mb-6">
                   <span className="inline-flex items-center justify-center bg-primary/10 w-12 h-12 rounded-full">
                     <Rocket className="h-6 w-6 text-primary" />
                   </span>
                   <h2 className="text-2xl md:text-3xl font-bold">Startup Plan</h2>
                 </div>
-                <div className="flex items-baseline mb-6">
-                  <span className="text-5xl font-bold">$5,000</span>
-                  <span className="text-xl text-muted-foreground ml-2">/month</span>
-                </div>
                 <p className="text-lg text-secondary/80 mb-6">
                   For early-stage startups and small teams looking to leverage AI-powered tools efficiently.
                 </p>
+                <a 
+                  href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full rounded-lg bg-primary text-white py-3 px-4 hover:bg-primary/90 flex items-center justify-center gap-2"
+                >
+                  <Phone className="h-4 w-4" />
+                  Book a Call
+                </a>
               </div>
               
               <div className="p-8 md:p-12">
@@ -83,19 +89,24 @@ const Pricing = () => {
             {/* Enterprise Plan */}
             <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
               <div className="p-8 md:p-12 border-b border-gray-100">
-                <div className="flex items-center gap-3 mb-4">
+                <div className="flex items-center gap-3 mb-6">
                   <span className="inline-flex items-center justify-center bg-primary/10 w-12 h-12 rounded-full">
                     <DollarSign className="h-6 w-6 text-primary" />
                   </span>
                   <h2 className="text-2xl md:text-3xl font-bold">Enterprise Plan</h2>
                 </div>
-                <div className="flex items-baseline mb-6">
-                  <span className="text-5xl font-bold">$10,000</span>
-                  <span className="text-xl text-muted-foreground ml-2">/month</span>
-                </div>
                 <p className="text-lg text-secondary/80 mb-6">
                   For scaling businesses and enterprises that need AI-powered tools at scale.
                 </p>
+                <a 
+                  href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="w-full rounded-lg bg-primary text-white py-3 px-4 hover:bg-primary/90 flex items-center justify-center gap-2"
+                >
+                  <Phone className="h-4 w-4" />
+                  Book a Call
+                </a>
               </div>
               
               <div className="p-8 md:p-12">
