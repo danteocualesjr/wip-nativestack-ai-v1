@@ -1,6 +1,4 @@
-
 import { Link } from "react-router-dom";
-import { Phone } from "lucide-react";
 
 const Footer = () => {
   const footerSections = [
@@ -43,22 +41,6 @@ const Footer = () => {
               </ul>
             </div>
           ))}
-        </div>
-        
-        <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
-          <div>
-            <h3 className="text-xl font-semibold mb-2">Ready to get started?</h3>
-            <p className="text-white/70">Transform your business with AI-powered tools</p>
-          </div>
-          <a 
-            href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="rounded-full bg-white text-primary hover:bg-white/90 py-3 px-6 flex items-center gap-2"
-          >
-            <Phone className="h-4 w-4" />
-            Book a call
-          </a>
         </div>
         
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
