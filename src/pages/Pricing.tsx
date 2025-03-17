@@ -2,7 +2,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Phone, ArrowRight, Rocket, DollarSign, Check } from "lucide-react";
+import { Phone, ArrowRight, Rocket, Check } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Pricing = () => {
@@ -38,9 +38,9 @@ const Pricing = () => {
 
         {/* Pricing Content */}
         <section className="px-6 lg:px-8 py-24">
-          <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">
+          <div className="max-w-5xl mx-auto">
             {/* Startup Plan */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+            <div className="bg-white rounded-2xl shadow-xl overflow-hidden max-w-2xl mx-auto">
               <div className="p-8 md:p-12 border-b border-gray-100">
                 <div className="flex items-center gap-3 mb-6">
                   <span className="inline-flex items-center justify-center bg-primary/10 w-12 h-12 rounded-full">
@@ -48,18 +48,13 @@ const Pricing = () => {
                   </span>
                   <h2 className="text-2xl md:text-3xl font-bold">Startup Plan</h2>
                 </div>
+                <div className="flex items-baseline mb-6">
+                  <span className="text-5xl font-bold">$5,000</span>
+                  <span className="text-xl text-muted-foreground ml-2">/month</span>
+                </div>
                 <p className="text-lg text-secondary/80 mb-6">
                   For early-stage startups and small teams looking to leverage AI-powered tools efficiently.
                 </p>
-                <a 
-                  href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="w-full rounded-lg bg-primary text-white py-3 px-4 hover:bg-primary/90 flex items-center justify-center gap-2"
-                >
-                  <Phone className="h-4 w-4" />
-                  Book a Call
-                </a>
               </div>
               
               <div className="p-8 md:p-12">
@@ -86,52 +81,6 @@ const Pricing = () => {
               </div>
             </div>
 
-            {/* Enterprise Plan */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-              <div className="p-8 md:p-12 border-b border-gray-100">
-                <div className="flex items-center gap-3 mb-6">
-                  <span className="inline-flex items-center justify-center bg-primary/10 w-12 h-12 rounded-full">
-                    <DollarSign className="h-6 w-6 text-primary" />
-                  </span>
-                  <h2 className="text-2xl md:text-3xl font-bold">Enterprise Plan</h2>
-                </div>
-                <p className="text-lg text-secondary/80 mb-6">
-                  For scaling businesses and enterprises that need AI-powered tools at scale.
-                </p>
-                <a 
-                  href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="w-full rounded-lg bg-primary text-white py-3 px-4 hover:bg-primary/90 flex items-center justify-center gap-2"
-                >
-                  <Phone className="h-4 w-4" />
-                  Book a Call
-                </a>
-              </div>
-              
-              <div className="p-8 md:p-12">
-                <h3 className="text-xl font-semibold mb-6">What's included:</h3>
-                <ul className="space-y-4">
-                  {[
-                    "Unlimited requests & revisions",
-                    "Up to 5 production-ready MVPs per month (e.g., custom CRMs, dashboards, automation tools, SaaS applications)",
-                    "AI-driven workflow optimization to improve efficiency across departments",
-                    "Dedicated Slack channel & priority support",
-                    "Bi-weekly strategy calls for roadmap planning & execution"
-                  ].map((item, i) => (
-                    <li key={i} className="flex items-start gap-3">
-                      <span className="text-primary shrink-0 mt-1">🚀</span>
-                      <span className="text-secondary/90">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="mt-8 p-4 bg-gray-50 rounded-lg">
-                  <p className="text-secondary/90 font-medium">
-                    <span className="font-semibold text-primary">Ideal for:</span> Scaling businesses and enterprises that need AI-powered tools at scale.
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Book a Call Section */}
