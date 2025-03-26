@@ -31,6 +31,9 @@ const Navigation = () => {
           <Link to="/our-services" className={isActive("/our-services")}>
             Our Services
           </Link>
+          <Link to="/our-work" className={isActive("/our-work")}>
+            Our Work
+          </Link>
           <Link to="/pricing" className={isActive("/pricing")}>
             Pricing
           </Link>
@@ -82,6 +85,13 @@ const Navigation = () => {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Our Services
+            </Link>
+            <Link 
+              to="/our-work" 
+              className={`${isActive("/our-work")} py-2`}
+              onClick={() => setIsMobileMenuOpen(false)}
+            >
+              Our Work
             </Link>
             <Link 
               to="/pricing" 
