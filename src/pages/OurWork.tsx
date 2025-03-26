@@ -17,10 +17,20 @@ import {
   Compass, 
   Brain, 
   Bot, 
-  Globe 
+  Globe,
+  Image 
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { Card, CardContent } from "@/components/ui/card";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const OurWork = () => {
   useEffect(() => {
@@ -66,8 +76,14 @@ const OurWork = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* General Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-blue-50">
-                  <BarChart className="w-24 h-24 text-blue-500" />
+                <div className="h-52 flex items-center justify-center bg-blue-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/97ed7c5c-d209-41ae-88fa-20d8c82ced94.png" 
+                      alt="General Dashboard" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
@@ -87,8 +103,14 @@ const OurWork = () => {
 
               {/* KPI Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-indigo-50">
-                  <PieChart className="w-24 h-24 text-indigo-500" />
+                <div className="h-52 flex items-center justify-center bg-indigo-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/987c42c5-fb90-4199-a3b1-847454a8df17.png" 
+                      alt="KPI Dashboard" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
@@ -323,6 +345,62 @@ const OurWork = () => {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Project Screenshots Carousel */}
+        <section className="px-6 lg:px-8 py-20 bg-zinc-100">
+          <div className="max-w-6xl mx-auto">
+            <div className="mb-12 text-center">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">Explore Our Projects</h2>
+              <p className="text-secondary/80 max-w-2xl mx-auto">
+                Get a closer look at some of our recent projects and implementations
+              </p>
+            </div>
+            
+            <Carousel className="w-full max-w-4xl mx-auto">
+              <CarouselContent>
+                <CarouselItem>
+                  <Card>
+                    <CardContent className="p-1">
+                      <AspectRatio ratio={16/9}>
+                        <img 
+                          src="/lovable-uploads/97ed7c5c-d209-41ae-88fa-20d8c82ced94.png" 
+                          alt="General Dashboard" 
+                          className="w-full h-full object-cover rounded-md"
+                        />
+                      </AspectRatio>
+                      <div className="p-4">
+                        <h3 className="font-semibold text-lg">General Dashboard</h3>
+                        <p className="text-secondary/80">Analytics and visualization for financial tracking</p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </CarouselItem>
+
+                <CarouselItem>
+                  <Card>
+                    <CardContent className="p-1">
+                      <AspectRatio ratio={16/9}>
+                        <img 
+                          src="/lovable-uploads/987c42c5-fb90-4199-a3b1-847454a8df17.png" 
+                          alt="KPI Dashboard" 
+                          className="w-full h-full object-cover rounded-md"
+                        />
+                      </AspectRatio>
+                      <div className="p-4">
+                        <h3 className="font-semibold text-lg">KPI Dashboard</h3>
+                        <p className="text-secondary/80">Performance metrics and KPI tracking solution</p>
+                      </div>
+                    </CardContent>
+                  </Card>
+                </CarouselItem>
+              </CarouselContent>
+              <div className="flex justify-center mt-4">
+                <CarouselPrevious className="relative -left-0 top-0 translate-y-0 rounded mr-2" />
+                <CarouselNext className="relative -right-0 top-0 translate-y-0 rounded" />
+              </div>
+            </Carousel>
           </div>
         </section>
 
