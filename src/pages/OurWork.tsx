@@ -304,8 +304,14 @@ const OurWork = () => {
 
               {/* MindCraft */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-indigo-50">
-                  <BookOpen className="w-24 h-24 text-indigo-500" />
+                <div className="h-52 flex items-center justify-center bg-indigo-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/00967524-9b73-4b04-a7db-ad1ae449ca70.png" 
+                      alt="MindCraft" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
