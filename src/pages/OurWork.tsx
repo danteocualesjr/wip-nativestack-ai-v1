@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -194,7 +193,7 @@ const OurWork = () => {
           </div>
         </section>
 
-        {/* Category: AI-Powered Solutions */}
+        {/* AI-Powered Solutions Section */}
         <section className="px-6 lg:px-8 py-20 bg-zinc-50">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 text-center">
@@ -207,8 +206,14 @@ const OurWork = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Leadscape AI */}
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-orange-50">
-                  <Search className="w-24 h-24 text-orange-500" />
+                <div className="h-52 flex items-center justify-center bg-orange-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/095327d1-01ef-4931-8a3e-bac9e7788a94.png" 
+                      alt="Leadscape AI" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
@@ -228,8 +233,14 @@ const OurWork = () => {
 
               {/* PitchPilot AI */}
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-teal-50">
-                  <Bot className="w-24 h-24 text-teal-500" />
+                <div className="h-52 flex items-center justify-center bg-teal-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/72d7a8b8-39e7-4f36-96f5-7f7651be62b1.png" 
+                      alt="PitchPilot AI" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
@@ -249,8 +260,14 @@ const OurWork = () => {
 
               {/* AgentFly */}
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-blue-50">
-                  <Plane className="w-24 h-24 text-blue-500" />
+                <div className="h-52 flex items-center justify-center bg-blue-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/5f78e01d-50ff-469d-9b80-d9ddb29ffb10.png" 
+                      alt="AgentFly" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
