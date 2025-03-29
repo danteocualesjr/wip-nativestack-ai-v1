@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -326,8 +325,14 @@ const OurWork = () => {
 
               {/* Blooms & Petals */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-pink-50">
-                  <ShoppingBag className="w-24 h-24 text-pink-500" />
+                <div className="h-52 flex items-center justify-center bg-pink-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/8895b6cb-f451-4cf7-bb35-620b8fb496f0.png" 
+                      alt="Blooms & Petals" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
@@ -335,7 +340,7 @@ const OurWork = () => {
                     <h3 className="font-semibold text-lg">Blooms & Petals</h3>
                   </div>
                   <p className="text-secondary/80 mb-4">
-                    Elegant e-commerce platform for handcrafted flower arrangements with a focus on artistry, quality, and a seamless shopping experience.
+                    An elegant e-commerce platform for handcrafted flower arrangements, bringing nature's artistry to customers' doorsteps. Discover beautifully curated bouquets created with care and delivered with love.
                   </p>
                   <div className="flex flex-wrap gap-2 mb-4">
                     <span className="text-xs bg-pink-100 text-pink-700 px-2 py-1 rounded-full">E-commerce</span>
