@@ -12,7 +12,7 @@ export const pageView = (page_path: string, page_title: string) => {
   gtag('event', 'page_view', {
     page_path,
     page_title,
-    send_to: 'G-MEASUREMENT_ID'
+    send_to: 'G-F39J8DBV3L'
   });
 };
 
@@ -34,3 +34,4 @@ export const trackInteraction = (
     value: value
   });
 };
+
