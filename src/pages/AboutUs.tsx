@@ -1,6 +1,7 @@
 
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { trackInteraction } from "@/utils/analytics";
 
 const AboutUs = () => {
   return (
@@ -25,8 +26,30 @@ const AboutUs = () => {
           </div>
         </section>
 
+        {/* Logo Section */}
+        <section className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 bg-white">
+          <div className="max-w-3xl mx-auto text-center">
+            <div className="flex flex-col items-center justify-center mb-8">
+              <img 
+                src="/public/lovable-uploads/0240a07a-6ae8-4265-962d-ca5f7940033e.png" 
+                alt="NativeStack AI Logo" 
+                className="w-48 sm:w-56 md:w-64 h-auto mb-6"
+                onClick={() => trackInteraction('logo_click', 'about_page')}
+              />
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800">
+                Our Brand Identity
+              </h2>
+            </div>
+            <p className="text-sm sm:text-base text-gray-600 mb-4">
+              The NativeStack AI logo represents our commitment to innovation and intelligence. 
+              The geometric orange brain symbolizes how we bring structure and clarity to complex AI 
+              challenges, transforming raw technology into smart business solutions.
+            </p>
+          </div>
+        </section>
+
         {/* About Content */}
-        <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24 bg-gray-50">
           <div className="mx-auto max-w-3xl prose prose-sm sm:prose-base lg:prose-lg">
             <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
               At NativeStack AI, our mission is to help businesses thrive by transitioning to the AI era and becoming AI-native. We equip organizations with the tools and strategies needed to succeed in an AI-driven world. Our goal is simple yet powerful: to enable businesses across industries to adopt AI at their core, starting with essential areas like sales. By leveraging no-code tools, building custom micro-apps, and curating AI-powered solutions, we empower clients to streamline workflows, make data-driven decisions, and achieve maximum impact.
