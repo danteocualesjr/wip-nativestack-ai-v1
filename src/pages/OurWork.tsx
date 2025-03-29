@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -41,9 +40,7 @@ const OurWork = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       
-      {/* Main content with top padding for navigation */}
       <main className="pt-16">
-        {/* Hero Section */}
         <section className="px-6 lg:px-8 py-24 bg-gradient-to-br from-[#FF9D5C] to-[#FF6601] text-white">
           <div className="max-w-5xl mx-auto text-center">
             <div className="inline-block bg-black/20 backdrop-blur-sm px-4 py-1 rounded-full mb-4">
@@ -63,7 +60,6 @@ const OurWork = () => {
           </div>
         </section>
 
-        {/* Category: Dashboards & Analytics */}
         <section className="px-6 lg:px-8 py-20 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 text-center">
@@ -74,9 +70,8 @@ const OurWork = () => {
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* General Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-blue-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-blue-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/7f364202-7528-4542-97f4-0639e1e1ed41.png" 
@@ -101,9 +96,8 @@ const OurWork = () => {
                 </div>
               </div>
 
-              {/* KPI Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-indigo-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-indigo-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/7bb80330-15e0-4a49-825a-f50e1ece723c.png" 
@@ -128,9 +122,8 @@ const OurWork = () => {
                 </div>
               </div>
 
-              {/* Performance Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-cyan-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-cyan-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/1ad2a634-2c90-44bf-8240-5e3ec4bcb339.png" 
@@ -155,9 +148,8 @@ const OurWork = () => {
                 </div>
               </div>
 
-              {/* Sales Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-green-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-green-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/7adc144d-ba70-4fc9-8857-85a6317630a3.png" 
@@ -182,9 +174,8 @@ const OurWork = () => {
                 </div>
               </div>
 
-              {/* Custom CRM */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-purple-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-purple-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/7418c782-9d00-4602-b801-9bb6b5456863.png" 
@@ -212,7 +203,6 @@ const OurWork = () => {
           </div>
         </section>
 
-        {/* AI-Powered Solutions Section */}
         <section className="px-6 lg:px-8 py-20 bg-zinc-50">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 text-center">
@@ -223,9 +213,8 @@ const OurWork = () => {
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Leadscape AI */}
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-orange-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-orange-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/095327d1-01ef-4931-8a3e-bac9e7788a94.png" 
@@ -250,9 +239,8 @@ const OurWork = () => {
                 </div>
               </div>
 
-              {/* PitchPilot AI */}
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-teal-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-teal-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/72d7a8b8-39e7-4f36-96f5-7f7651be62b1.png" 
@@ -277,9 +265,8 @@ const OurWork = () => {
                 </div>
               </div>
 
-              {/* AgentFly */}
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-blue-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-blue-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/5f78e01d-50ff-469d-9b80-d9ddb29ffb10.png" 
@@ -307,7 +294,6 @@ const OurWork = () => {
           </div>
         </section>
 
-        {/* Category: Web Applications */}
         <section className="px-6 lg:px-8 py-20 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 text-center">
@@ -318,9 +304,8 @@ const OurWork = () => {
             </div>
             
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Airways */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-sky-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-sky-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/99f8e941-802d-472d-a960-61c41bf5ec48.png" 
@@ -345,9 +330,8 @@ const OurWork = () => {
                 </div>
               </div>
 
-              {/* MindCraft */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-indigo-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-indigo-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/00967524-9b73-4b04-a7db-ad1ae449ca70.png" 
@@ -372,9 +356,8 @@ const OurWork = () => {
                 </div>
               </div>
 
-              {/* Blooms & Petals */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-pink-50 overflow-hidden">
+                <div className="h-80 flex items-center justify-center bg-pink-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/8895b6cb-f451-4cf7-bb35-620b8fb496f0.png" 
@@ -402,7 +385,6 @@ const OurWork = () => {
           </div>
         </section>
 
-        {/* CTA Section - Updated */}
         <section className="px-6 lg:px-8 py-20 bg-zinc-900 text-white">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to transform your business with AI?</h2>
