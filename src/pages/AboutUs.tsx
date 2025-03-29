@@ -1,7 +1,6 @@
 
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { trackInteraction } from "@/utils/analytics";
 
 const AboutUs = () => {
   return (
@@ -22,28 +21,6 @@ const AboutUs = () => {
             <p className="max-w-2xl mx-auto text-base sm:text-lg md:text-xl text-white/80 mb-8 sm:mb-12 px-4">
               Empowering businesses to thrive in the AI era by providing the tools, 
               strategies, and support needed to become truly AI-native.
-            </p>
-          </div>
-        </section>
-
-        {/* Logo Section */}
-        <section className="px-4 sm:px-6 lg:px-8 py-12 sm:py-16 bg-white">
-          <div className="max-w-3xl mx-auto text-center">
-            <div className="flex flex-col items-center justify-center mb-8">
-              <img 
-                src="/public/lovable-uploads/0240a07a-6ae8-4265-962d-ca5f7940033e.png" 
-                alt="NativeStack AI Logo" 
-                className="w-48 sm:w-56 md:w-64 h-auto mb-6"
-                onClick={() => trackInteraction('logo_click', 'about_page')}
-              />
-              <h2 className="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-800">
-                Our Brand Identity
-              </h2>
-            </div>
-            <p className="text-sm sm:text-base text-gray-600 mb-4">
-              The NativeStack AI logo represents our commitment to innovation and intelligence. 
-              The geometric orange brain symbolizes how we bring structure and clarity to complex AI 
-              challenges, transforming raw technology into smart business solutions.
             </p>
           </div>
         </section>
