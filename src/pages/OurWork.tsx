@@ -76,7 +76,7 @@ const OurWork = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* General Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-blue-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-blue-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/7f364202-7528-4542-97f4-0639e1e1ed41.png" 
@@ -103,7 +103,7 @@ const OurWork = () => {
 
               {/* KPI Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-indigo-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-indigo-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/7bb80330-15e0-4a49-825a-f50e1ece723c.png" 
@@ -130,7 +130,7 @@ const OurWork = () => {
 
               {/* Performance Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-cyan-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-cyan-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/1ad2a634-2c90-44bf-8240-5e3ec4bcb339.png" 
@@ -157,7 +157,7 @@ const OurWork = () => {
 
               {/* Sales Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-green-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-green-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/7adc144d-ba70-4fc9-8857-85a6317630a3.png" 
@@ -184,7 +184,7 @@ const OurWork = () => {
 
               {/* Custom CRM */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-purple-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-purple-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/7418c782-9d00-4602-b801-9bb6b5456863.png" 
@@ -225,7 +225,7 @@ const OurWork = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Leadscape AI */}
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-orange-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-orange-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/095327d1-01ef-4931-8a3e-bac9e7788a94.png" 
@@ -252,7 +252,7 @@ const OurWork = () => {
 
               {/* PitchPilot AI */}
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-teal-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-teal-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/72d7a8b8-39e7-4f36-96f5-7f7651be62b1.png" 
@@ -279,7 +279,7 @@ const OurWork = () => {
 
               {/* AgentFly */}
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-blue-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-blue-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/5f78e01d-50ff-469d-9b80-d9ddb29ffb10.png" 
@@ -320,7 +320,7 @@ const OurWork = () => {
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Airways */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-sky-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-sky-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/99f8e941-802d-472d-a960-61c41bf5ec48.png" 
@@ -347,7 +347,7 @@ const OurWork = () => {
 
               {/* MindCraft */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-indigo-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-indigo-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/00967524-9b73-4b04-a7db-ad1ae449ca70.png" 
@@ -374,7 +374,7 @@ const OurWork = () => {
 
               {/* Blooms & Petals */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-pink-50 overflow-hidden">
+                <div className="h-64 flex items-center justify-center bg-pink-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
                       src="/lovable-uploads/8895b6cb-f451-4cf7-bb35-620b8fb496f0.png" 
@@ -402,28 +402,21 @@ const OurWork = () => {
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* CTA Section - Updated */}
         <section className="px-6 lg:px-8 py-20 bg-zinc-900 text-white">
           <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to transform your business?</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to transform your business with AI?</h2>
             <p className="text-white/70 max-w-2xl mx-auto mb-8 text-lg">
               Let our team of experts build AI-powered tools that streamline your operations and drive growth.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/contact">
-                <Button variant="outline" className="rounded-full py-6 px-8 text-white border-white hover:bg-white hover:text-zinc-900">
-                  Contact Us
-                </Button>
-              </Link>
-              <a 
-                href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="rounded-full py-6 px-8 bg-primary text-white hover:bg-primary/90 shadow-lg inline-flex items-center justify-center"
-              >
-                Book a Call
-              </a>
-            </div>
+            <a 
+              href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="rounded-full py-6 px-8 bg-primary text-white hover:bg-primary/90 shadow-lg inline-flex items-center justify-center text-lg"
+            >
+              Get Started
+            </a>
           </div>
         </section>
       </main>

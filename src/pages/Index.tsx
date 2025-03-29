@@ -152,7 +152,7 @@ const Index = () => {
           </div>
         </section>
 
-        {/* CTA Section */}
+        {/* CTA Section - Updated button text */}
         <section className="py-16 sm:py-24 bg-primary text-white px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8">Ready to transform your business with AI?</h2>
@@ -165,7 +165,7 @@ const Index = () => {
               rel="noopener noreferrer"
               className="px-6 sm:px-8 py-3 sm:py-4 bg-white text-primary rounded-full font-semibold hover:bg-white/90 transition-colors inline-block text-sm sm:text-base"
             >
-              Schedule a Consultation
+              Get Started
             </a>
           </div>
         </section>
