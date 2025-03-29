@@ -1,6 +1,7 @@
 
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
+import { trackInteraction } from "@/utils/analytics";
 
 const AboutUs = () => {
   return (
@@ -22,6 +23,16 @@ const AboutUs = () => {
               Empowering businesses to thrive in the AI era by providing the tools, 
               strategies, and support needed to become truly AI-native.
             </p>
+            
+            {/* Logo added here */}
+            <div className="flex justify-center">
+              <img 
+                src="/public/lovable-uploads/1190710b-f155-4788-bddb-3a3ce1c6a5cf.png" 
+                alt="NativeStack AI Logo" 
+                className="w-48 sm:w-56 md:w-64 h-auto"
+                onClick={() => trackInteraction('logo_click', 'about_hero')}
+              />
+            </div>
           </div>
         </section>
 
