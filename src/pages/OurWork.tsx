@@ -1,3 +1,4 @@
+
 import { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -78,7 +79,7 @@ const OurWork = () => {
                 <div className="h-52 flex items-center justify-center bg-blue-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
-                      src="/lovable-uploads/97ed7c5c-d209-41ae-88fa-20d8c82ced94.png" 
+                      src="/lovable-uploads/7f364202-7528-4542-97f4-0639e1e1ed41.png" 
                       alt="General Dashboard" 
                       className="h-full w-full object-cover"
                     />
@@ -105,7 +106,7 @@ const OurWork = () => {
                 <div className="h-52 flex items-center justify-center bg-indigo-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
-                      src="/lovable-uploads/987c42c5-fb90-4199-a3b1-847454a8df17.png" 
+                      src="/lovable-uploads/7bb80330-15e0-4a49-825a-f50e1ece723c.png" 
                       alt="KPI Dashboard" 
                       className="h-full w-full object-cover"
                     />
@@ -129,8 +130,14 @@ const OurWork = () => {
 
               {/* Performance Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-cyan-50">
-                  <LineChart className="w-24 h-24 text-cyan-500" />
+                <div className="h-52 flex items-center justify-center bg-cyan-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/1ad2a634-2c90-44bf-8240-5e3ec4bcb339.png" 
+                      alt="Performance Dashboard" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
@@ -150,8 +157,14 @@ const OurWork = () => {
 
               {/* Sales Dashboard */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-green-50">
-                  <BarChart className="w-24 h-24 text-green-500" />
+                <div className="h-52 flex items-center justify-center bg-green-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/7adc144d-ba70-4fc9-8857-85a6317630a3.png" 
+                      alt="Sales Dashboard & Leaderboard" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
@@ -171,8 +184,14 @@ const OurWork = () => {
 
               {/* Custom CRM */}
               <div className="bg-zinc-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-52 flex items-center justify-center bg-purple-50">
-                  <Laptop className="w-24 h-24 text-purple-500" />
+                <div className="h-52 flex items-center justify-center bg-purple-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/7418c782-9d00-4602-b801-9bb6b5456863.png" 
+                      alt="Custom CRM" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
                 </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
