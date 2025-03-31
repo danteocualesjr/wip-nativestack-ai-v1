@@ -14,6 +14,10 @@ import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 import Careers from "./pages/Careers";
 import Press from "./pages/Press";
+import Training from "./pages/Training";
+import InternalTools from "./pages/InternalTools";
+import AISystems from "./pages/AISystems";
+import Implementation from "./pages/Implementation";
 import { pageView } from "./utils/analytics";
 
 const queryClient = new QueryClient();
@@ -50,6 +54,10 @@ const App = () => (
           <Route path="/blog" element={<Blog />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/press" element={<Press />} />
+          <Route path="/training" element={<Training />} />
+          <Route path="/internal-tools" element={<InternalTools />} />
+          <Route path="/ai-systems" element={<AISystems />} />
+          <Route path="/implementation" element={<Implementation />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>

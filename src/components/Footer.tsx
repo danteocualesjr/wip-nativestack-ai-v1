@@ -6,6 +6,7 @@ const Footer = () => {
     {
       title: "Services",
       links: ["Training in Essential AI Skills", "Building Internal Tools", "AI-Powered Systems for Businesses", "Implementation"],
+      routes: ["/training", "/internal-tools", "/ai-systems", "/implementation"]
     },
     {
       title: "Company",
@@ -29,10 +30,10 @@ const Footer = () => {
             <div key={section.title}>
               <h3 className="font-semibold mb-4">{section.title}</h3>
               <ul className="space-y-2">
-                {section.links.map((link) => (
+                {section.links.map((link, i) => (
                   <li key={link}>
                     <Link
-                      to={`/${link.toLowerCase().replace(/\s+/g, '-')}`}
+                      to={section.routes ? section.routes[i] : `/${link.toLowerCase().replace(/\s+/g, '-')}`}
                       className="text-white/70 hover:text-white transition-colors"
                     >
                       {link}
