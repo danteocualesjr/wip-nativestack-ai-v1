@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
@@ -14,7 +13,7 @@ const Cookies = () => {
         
         <div className="prose prose-slate max-w-none">
           <p className="text-lg mb-6">
-            Last updated: June 1, 2025
+            Last updated: March 31, 2025
           </p>
           
           <h2 className="text-2xl font-semibold mt-8 mb-4">What Are Cookies</h2>
@@ -89,7 +88,7 @@ const Cookies = () => {
             If you have any questions about our Cookie Policy, please contact us:
           </p>
           <p className="mt-2">
-            <strong>Email:</strong> privacy@nativestack.ai
+            <strong>Email:</strong> dante@nativestack.ai
           </p>
         </div>
       </main>
