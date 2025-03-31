@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import React, { useEffect } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { 
@@ -297,7 +297,7 @@ const OurWork = () => {
         <section className="px-6 lg:px-8 py-20 bg-white">
           <div className="max-w-6xl mx-auto">
             <div className="mb-12 text-center">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Web Applications</h2>
+              <h2 className="text-3xl md:text-4xl font-bold mb-4">SaaS Applications</h2>
               <p className="text-secondary/80 max-w-2xl mx-auto">
                 Beautifully designed, functional web applications that solve real-world problems
               </p>
