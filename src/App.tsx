@@ -22,6 +22,10 @@ import CaseStudies from "./pages/CaseStudies";
 import KnowledgeBase from "./pages/KnowledgeBase";
 import Documentation from "./pages/Documentation";
 import Guides from "./pages/Guides";
+import Privacy from "./pages/Privacy";
+import Terms from "./pages/Terms";
+import Security from "./pages/Security";
+import Cookies from "./pages/Cookies";
 import { pageView } from "./utils/analytics";
 
 const queryClient = new QueryClient();
@@ -66,6 +70,10 @@ const App = () => (
           <Route path="/knowledge-base" element={<KnowledgeBase />} />
           <Route path="/documentation" element={<Documentation />} />
           <Route path="/guides" element={<Guides />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/security" element={<Security />} />
+          <Route path="/cookies" element={<Cookies />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
