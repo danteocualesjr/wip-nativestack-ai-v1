@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
@@ -14,7 +13,7 @@ const Terms = () => {
         
         <div className="prose prose-slate max-w-none">
           <p className="text-lg mb-6">
-            Last updated: June 1, 2025
+            Last updated: March 31, 2025
           </p>
           
           <h2 className="text-2xl font-semibold mt-8 mb-4">1. Agreement to Terms</h2>
