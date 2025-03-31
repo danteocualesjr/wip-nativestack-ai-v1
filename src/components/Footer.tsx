@@ -5,7 +5,7 @@ const Footer = () => {
   const footerSections = [
     {
       title: "Services",
-      links: ["AI Strategy", "Custom Development", "Data Analysis", "Implementation"],
+      links: ["Training in Essential AI Skills", "Building Internal Tools", "AI-Powered Systems for Businesses", "Implementation"],
     },
     {
       title: "Company",
