@@ -1,4 +1,5 @@
-import { ArrowRight, Check, ChevronDown, Zap, Settings, BarChart3, Code } from "lucide-react";
+
+import { ArrowRight, Check, ChevronDown, Zap, Settings, Robot, Code } from "lucide-react";
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -25,7 +26,7 @@ const Index = () => {
               </span>
             </h1>
             <p className="mx-auto max-w-2xl text-base sm:text-lg text-secondary mb-6 sm:mb-8 px-4">
-              We help businesses build tools and systems to streamline workflows and drive revenue.
+              We help businesses build MVPs and AI-powered tools to streamline workflows and drive revenue.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 px-4">
               <a 
@@ -65,7 +66,7 @@ const Index = () => {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {[
                 {
-                  title: "Building Internal Tools and AI-Powered Systems",
+                  title: "Building Internal Tools and AI-Powered Systems for Businesses",
                   description: "We create custom internal tools and AI systems that align with your company's unique needs, enhancing productivity and optimizing business processes.",
                   icon: <Settings className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#6495ED] to-[#4169E1]",
@@ -79,7 +80,7 @@ const Index = () => {
                 {
                   title: "AI Agents for Companies and Teams",
                   description: "We build intelligent AI agents that automate complex tasks, enhance team productivity, and provide valuable insights to drive business decisions.",
-                  icon: <BarChart3 className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
+                  icon: <Robot className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#FFA07A] to-[#FF6347]",
                 },
               ].map((feature, index) => (
@@ -156,7 +157,7 @@ const Index = () => {
           <div className="mx-auto max-w-7xl text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8">Ready to transform your business with AI?</h2>
             <p className="text-white/80 mb-6 sm:mb-8 max-w-2xl mx-auto text-sm sm:text-base">
-              Join innovative companies that are already leveraging our AI expertise to drive growth.
+              Join innovative companies that are already leveraging our AI expertise to build MVPs and drive growth.
             </p>
             <a 
               href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 

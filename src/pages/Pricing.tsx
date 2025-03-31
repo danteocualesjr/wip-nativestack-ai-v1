@@ -23,7 +23,7 @@ const Pricing = () => {
               Flexible Pricing
             </h1>
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-white/80 mb-12">
-              Partner with NativeStack AI to build AI-powered internal tools and systems that streamline workflows, enhance productivity, and drive revenue. Our tailored solutions empower businesses to scale efficiently and stay ahead in an AI-driven world.
+              Partner with NativeStack AI to build AI-powered MVPs, internal tools and systems that streamline workflows, enhance productivity, and drive revenue. Our tailored solutions empower businesses to scale efficiently and stay ahead in an AI-driven world.
             </p>
             <a 
               href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
@@ -84,7 +84,7 @@ const Pricing = () => {
                 </ul>
                 <div className="mt-8 p-4 bg-gray-50 rounded-lg">
                   <p className="text-secondary/90 font-medium">
-                    <span className="font-semibold text-primary">Ideal for:</span> Early-stage startups and small teams looking to leverage AI-powered tools efficiently.
+                    <span className="font-semibold text-primary">Ideal for:</span> Early-stage startups and small teams looking to rapidly develop and deploy AI-powered MVPs.
                   </p>
                 </div>
               </div>
@@ -95,7 +95,7 @@ const Pricing = () => {
           <div className="mt-16 bg-zinc-900 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row justify-between items-center gap-6 max-w-5xl mx-auto">
             <div className="text-white">
               <h3 className="text-2xl md:text-3xl font-bold mb-3">Book a call</h3>
-              <p className="text-white/70">Book a 15-minute free call with our team</p>
+              <p className="text-white/70">Book a 15-minute free call with our team to discuss your MVP needs</p>
             </div>
             <a 
               href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
