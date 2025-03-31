@@ -78,7 +78,7 @@ const Index = () => {
                 },
                 {
                   title: "AI Agents for Companies and Teams",
-                  description: "We build intelligent AI agents that automate complex tasks, enhance team productivity, and provide valuable insights to drive business decisions.",
+                  description: "We build AI agents that automate complex tasks, enhance team productivity, and provide valuable insights to drive business decisions.",
                   icon: <Bot className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#FFA07A] to-[#FF6347]",
                 },

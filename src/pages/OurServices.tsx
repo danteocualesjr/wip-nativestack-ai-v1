@@ -104,7 +104,7 @@ const OurServices = () => {
             <div className="mb-12 sm:mb-16">
               <h2 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">AI Agents for Companies and Teams</h2>
               <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
-                We build intelligent AI agents that automate complex tasks, enhance team productivity, and provide valuable insights to drive business decisions across various departments.
+                We build AI agents that automate complex tasks, enhance team productivity, and provide valuable insights to drive business decisions across various departments.
               </p>
               <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
                 Our AI agents go beyond simple automation by bringing context-aware intelligence to your team's workflows. We create specialized agents that can handle data analysis, customer support, content generation, research, and other specialized tasks that traditionally require significant human time and expertise. These agents learn from interactions, adapt to your company's unique processes, and continuously improve their performance over time.
