@@ -1,4 +1,3 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
@@ -14,7 +13,7 @@ const Privacy = () => {
         
         <div className="prose prose-slate max-w-none">
           <p className="text-lg mb-6">
-            Last updated: June 1, 2025
+            Last updated: March 31, 2025
           </p>
           
           <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
@@ -63,8 +62,7 @@ const Privacy = () => {
             If you have any questions about this privacy policy or our privacy practices, please contact us at:
           </p>
           <p className="mt-2">
-            <strong>Email:</strong> privacy@nativestack.ai<br />
-            <strong>Address:</strong> 123 AI Boulevard, San Francisco, CA 94107
+            <strong>Email:</strong> dante@nativestack.ai
           </p>
         </div>
       </main>
