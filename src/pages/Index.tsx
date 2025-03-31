@@ -1,5 +1,4 @@
-
-import { ArrowRight, Check, ChevronDown, Zap, Settings, BarChart3 } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, Zap, Settings, BarChart3, Code } from "lucide-react";
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -66,22 +65,22 @@ const Index = () => {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
               {[
                 {
-                  title: "Training in Essential AI Skills",
-                  description: "Engaging virtual events and hands-on demos showcasing the latest AI tools and resources, with practical guidance on integrating them into your or your team's workflows.",
-                  icon: <Zap className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
-                  gradient: "from-[#FFA07A] to-[#FF6347]",
-                },
-                {
-                  title: "Building Internal Tools",
-                  description: "We design and develop custom internal tools that align with your company's unique needs, including custom CRMs, workflow automation tools, and analytics dashboards.",
+                  title: "Building Internal Tools and AI-Powered Systems",
+                  description: "We create custom internal tools and AI systems that align with your company's unique needs, enhancing productivity and optimizing business processes.",
                   icon: <Settings className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#6495ED] to-[#4169E1]",
                 },
                 {
-                  title: "AI-Powered Systems for Businesses",
-                  description: "We build tailored, no-code and AI-driven solutions that automate repetitive tasks, enhance data insights, and provide user-friendly interfaces to drive business growth.",
-                  icon: <BarChart3 className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
+                  title: "SaaS Applications for Entrepreneurs and Startups",
+                  description: "We develop scalable, market-ready SaaS solutions that help entrepreneurs and startups bring innovative ideas to life and gain competitive advantage.",
+                  icon: <Code className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#9370DB] to-[#8A2BE2]",
+                },
+                {
+                  title: "AI Agents for Companies and Teams",
+                  description: "We build intelligent AI agents that automate complex tasks, enhance team productivity, and provide valuable insights to drive business decisions.",
+                  icon: <BarChart3 className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
+                  gradient: "from-[#FFA07A] to-[#FF6347]",
                 },
               ].map((feature, index) => (
                 <div
@@ -152,7 +151,7 @@ const Index = () => {
           </div>
         </section>
 
-        {/* CTA Section - Updated button text */}
+        {/* CTA Section */}
         <section className="py-16 sm:py-24 bg-primary text-white px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8">Ready to transform your business with AI?</h2>

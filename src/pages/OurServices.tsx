@@ -38,7 +38,7 @@ const OurServices = () => {
           </div>
         </section>
 
-        {/* Services Content */}
+        {/* Services Content - Updated with new service descriptions */}
         <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
           <div className="mx-auto max-w-3xl">
             {/* Service 1 */}
@@ -55,14 +55,31 @@ const OurServices = () => {
               </p>
             </div>
 
-            {/* Service 2 */}
+            {/* Service 2 - New */}
             <div className="mb-12 sm:mb-16">
-              <h2 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">Training in Essential AI Skills</h2>
+              <h2 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">SaaS Applications for Entrepreneurs and Startups</h2>
               <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
-                Engaging virtual events and hands-on demos showcasing the latest AI tools and resources, with practical guidance on integrating them into your or your team's workflows.
+                We develop market-ready SaaS applications that help entrepreneurs and startups bring innovative ideas to life and gain a competitive advantage in their industries.
               </p>
               <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
-                Our training sessions are designed to make AI accessible, actionable, and relevant to your day-to-day operations. We cover a range of topics tailored for both beginners and advanced users, including foundational AI concepts, building AI agents, and creating custom web apps using tools like v0, Cursor, and Replit Agent. By offering flexible training options—from introductory sessions to in-depth, specialized workshops—we ensure that every participant gains the skills needed to apply AI effectively, whether they're enhancing personal productivity or leading a team's AI transformation.
+                Our team specializes in creating scalable, user-centric SaaS solutions that address specific market needs. From concept to launch, we guide entrepreneurs through the entire development process, ensuring that the final product aligns with your vision and business objectives. We focus on building applications with intuitive interfaces, robust functionality, and the flexibility to evolve as your business grows.
+              </p>
+              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
+                We emphasize creating SaaS products that not only solve real problems but also offer exceptional user experiences. By leveraging AI capabilities, we help startups differentiate their offerings in competitive markets, establish recurring revenue streams, and build scalable business models that attract both users and investors. Our development approach prioritizes rapid iterations, market feedback integration, and strategic feature prioritization to maximize your product's chances of success.
+              </p>
+            </div>
+
+            {/* Service 3 - New */}
+            <div className="mb-12 sm:mb-16">
+              <h2 className="text-xl sm:text-2xl font-bold text-primary mb-3 sm:mb-4">AI Agents for Companies and Teams</h2>
+              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
+                We build intelligent AI agents that automate complex tasks, enhance team productivity, and provide valuable insights to drive business decisions across various departments.
+              </p>
+              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
+                Our AI agents go beyond simple automation by bringing context-aware intelligence to your team's workflows. We create specialized agents that can handle data analysis, customer support, content generation, research, and other specialized tasks that traditionally require significant human time and expertise. These agents learn from interactions, adapt to your company's unique processes, and continuously improve their performance over time.
+              </p>
+              <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
+                By deploying AI agents strategically across your organization, we help companies achieve new levels of operational efficiency and innovation. Our agents are designed to complement human workers rather than replace them—freeing your team from routine tasks so they can focus on creative, strategic work that drives growth. We also ensure seamless integration with your existing tools and systems, enabling smooth adoption and maximizing the return on your AI investment.
               </p>
             </div>
           </div>
