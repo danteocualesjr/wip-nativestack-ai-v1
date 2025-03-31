@@ -1,7 +1,6 @@
-
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Robot, Settings, Code } from "lucide-react";
+import { Bot, Settings, Code } from "lucide-react";
 
 const OurServices = () => {
   return (
@@ -59,10 +58,10 @@ const OurServices = () => {
                 <h3 className="text-xl font-semibold">SaaS Applications</h3>
               </div>
               
-              {/* Service 3 Icon - UPDATED to Robot */}
+              {/* Service 3 Icon - UPDATED to Bot */}
               <div className="flex flex-col items-center text-center">
                 <div className="p-4 rounded-2xl bg-gradient-to-r from-[#FFA07A] to-[#FF6347] inline-block mb-4">
-                  <Robot className="w-12 h-12 text-white" />
+                  <Bot className="w-12 h-12 text-white" />
                 </div>
                 <h3 className="text-xl font-semibold">AI Agents</h3>
               </div>

@@ -1,5 +1,4 @@
-
-import { ArrowRight, Check, ChevronDown, Zap, Settings, Robot, Code } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, Zap, Settings, Bot, Code } from "lucide-react";
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -80,7 +79,7 @@ const Index = () => {
                 {
                   title: "AI Agents for Companies and Teams",
                   description: "We build intelligent AI agents that automate complex tasks, enhance team productivity, and provide valuable insights to drive business decisions.",
-                  icon: <Robot className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
+                  icon: <Bot className="w-7 h-7 sm:w-8 sm:h-8 text-white" />,
                   gradient: "from-[#FFA07A] to-[#FF6347]",
                 },
               ].map((feature, index) => (
