@@ -11,6 +11,9 @@ import OurServices from "./pages/OurServices";
 import OurWork from "./pages/OurWork";
 import Pricing from "./pages/Pricing";
 import Contact from "./pages/Contact";
+import Blog from "./pages/Blog";
+import Careers from "./pages/Careers";
+import Press from "./pages/Press";
 import { pageView } from "./utils/analytics";
 
 const queryClient = new QueryClient();
@@ -44,6 +47,9 @@ const App = () => (
           <Route path="/our-work" element={<OurWork />} />
           <Route path="/pricing" element={<Pricing />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/press" element={<Press />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
