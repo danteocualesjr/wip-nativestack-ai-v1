@@ -9,7 +9,7 @@ const Footer = () => {
     },
     {
       title: "Company",
-      links: ["About", "Blog", "Careers", "Press"],
+      links: ["About Us", "Blog", "Careers", "Press"],
     },
     {
       title: "Resources",
