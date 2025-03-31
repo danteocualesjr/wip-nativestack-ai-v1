@@ -11,14 +11,17 @@ const Footer = () => {
     {
       title: "Company",
       links: ["About Us", "Blog", "Careers", "Press"],
+      routes: ["/about-us", "/blog", "/careers", "/press"]
     },
     {
       title: "Resources",
       links: ["Case Studies", "Knowledge Base", "Documentation", "Guides"],
+      routes: ["/case-studies", "/knowledge-base", "/documentation", "/guides"]
     },
     {
       title: "Legal",
       links: ["Privacy", "Terms", "Security", "Cookies"],
+      routes: ["/privacy", "/terms", "/security", "/cookies"]
     },
   ];
 

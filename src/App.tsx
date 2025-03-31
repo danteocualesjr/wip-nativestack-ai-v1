@@ -18,6 +18,10 @@ import Training from "./pages/Training";
 import InternalTools from "./pages/InternalTools";
 import AISystems from "./pages/AISystems";
 import Implementation from "./pages/Implementation";
+import CaseStudies from "./pages/CaseStudies";
+import KnowledgeBase from "./pages/KnowledgeBase";
+import Documentation from "./pages/Documentation";
+import Guides from "./pages/Guides";
 import { pageView } from "./utils/analytics";
 
 const queryClient = new QueryClient();
@@ -58,6 +62,10 @@ const App = () => (
           <Route path="/internal-tools" element={<InternalTools />} />
           <Route path="/ai-systems" element={<AISystems />} />
           <Route path="/implementation" element={<Implementation />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
+          <Route path="/knowledge-base" element={<KnowledgeBase />} />
+          <Route path="/documentation" element={<Documentation />} />
+          <Route path="/guides" element={<Guides />} />
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
