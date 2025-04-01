@@ -12,9 +12,7 @@ const Index = () => {
     <div className="min-h-screen bg-background">
       <Navigation />
       
-      {/* Main content with top padding for navigation */}
       <main className="pt-16">
-        {/* Hero Section */}
         <section className="relative overflow-hidden px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32">
           <div className="mx-auto max-w-7xl text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-secondary mb-4 sm:mb-6">
@@ -25,7 +23,7 @@ const Index = () => {
               </span>
             </h1>
             <p className="mx-auto max-w-2xl text-base sm:text-lg text-secondary mb-6 sm:mb-8 px-4">
-              We help businesses build internal tools, AI-powered systems, and production-ready MVPs, such as custom CRMs, dashboards, SaaS applications, chatbots, and AI agents to streamline workflows and drive revenue.
+              We help businesses build internal tools, AI-powered systems, and production-ready MVPs, such as custom CRMs, dashboards, SaaS applications, AI agents, and chatbots to streamline workflows and drive revenue.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 px-4">
               <a 
@@ -42,7 +40,6 @@ const Index = () => {
             </div>
           </div>
 
-          {/* Hero Image */}
           <div className="relative mt-12 sm:mt-16">
             <div className="flex justify-center">
               <img
@@ -54,7 +51,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Services Section - Updated with modern design */}
         <section className="py-16 sm:py-24 bg-gradient-to-b from-surface to-background px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl">
             <div className="text-center mb-12 sm:mb-16">
@@ -106,7 +102,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* FAQ Section */}
         <section className="py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-3xl">
             <h2 className="text-2xl sm:text-3xl font-bold text-center mb-10 sm:mb-16 text-secondary">Frequently Asked Questions</h2>
@@ -151,7 +146,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* CTA Section */}
         <section className="py-16 sm:py-24 bg-primary text-white px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-7xl text-center">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8">Ready to transform your business with AI?</h2>
