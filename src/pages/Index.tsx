@@ -25,7 +25,7 @@ const Index = () => {
               </span>
             </h1>
             <p className="mx-auto max-w-2xl text-base sm:text-lg text-secondary mb-6 sm:mb-8 px-4">
-              We help businesses build MVPs and AI-powered tools to streamline workflows and drive revenue.
+              We help businesses build internal tools, AI-powered systems, and production-ready MVPs, such as custom CRMs, dashboards, SaaS applications, chatbots, and AI agents to streamline workflows and drive revenue.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 px-4">
               <a 
