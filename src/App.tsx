@@ -38,6 +38,7 @@ const AnalyticsTracker = () => {
 
   useEffect(() => {
     // Only track page views on push (new navigation) not on replace or pop
+    
     if (navigationType === 'PUSH') {
       pageView(location.pathname, document.title);
     }
