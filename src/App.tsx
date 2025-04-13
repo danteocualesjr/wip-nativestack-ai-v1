@@ -31,6 +31,7 @@ import { pageView } from "./utils/analytics";
 const queryClient = new QueryClient();
 
 // Analytics tracker component
+
 const AnalyticsTracker = () => {
   const location = useLocation();
   const navigationType = useNavigationType();
