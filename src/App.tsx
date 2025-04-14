@@ -11,6 +11,7 @@ import { BrowserRouter, Routes, Route, useLocation, useNavigationType } from "re
 import { useEffect } from "react";
 
 import Index from "./pages/Index";
+
 import AboutUs from "./pages/AboutUs";
 import OurServices from "./pages/OurServices";
 import OurWork from "./pages/OurWork";
