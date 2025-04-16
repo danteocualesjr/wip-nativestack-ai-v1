@@ -212,7 +212,7 @@ const OurWork = () => {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 place-content-center justify-center">
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
                 <div className="h-64 flex items-center justify-center bg-orange-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
