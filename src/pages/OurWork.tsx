@@ -264,32 +264,6 @@ const OurWork = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
-                <div className="h-64 flex items-center justify-center bg-blue-50 overflow-hidden">
-                  <AspectRatio ratio={16/9} className="h-full w-full">
-                    <img 
-                      src="/lovable-uploads/5f78e01d-50ff-469d-9b80-d9ddb29ffb10.png" 
-                      alt="AgentFly" 
-                      className="h-full w-full object-cover"
-                    />
-                  </AspectRatio>
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-2 mb-2">
-                    <Globe className="h-5 w-5 text-primary" />
-                    <h3 className="font-semibold text-lg">AgentFly</h3>
-                  </div>
-                  <p className="text-secondary/80 mb-4">
-                    AI-powered platform for finding optimal award flights by optimizing loyalty points strategy to unlock premium travel experiences at unbeatable values.
-                  </p>
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full">Loyalty Points</span>
-                    <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full">Travel Optimization</span>
-                    <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full">AI Recommendations</span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </section>
