@@ -25,6 +25,7 @@ import Contact from "./pages/Contact";
 import Blog from "./pages/Blog";
 
 import Careers from "./pages/Careers";
+
 import Press from "./pages/Press";
 import Training from "./pages/Training";
 import InternalTools from "./pages/InternalTools";
