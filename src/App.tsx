@@ -32,6 +32,7 @@ const queryClient = new QueryClient();
 // Analytics tracker component
 
 const AnalyticsTracker = () => {
+  
   const location = useLocation();
   const navigationType = useNavigationType();
 
