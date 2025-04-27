@@ -32,11 +32,12 @@ const queryClient = new QueryClient();
 // Analytics tracker component
 
 const AnalyticsTracker = () => {
-  
+
   const location = useLocation();
   const navigationType = useNavigationType();
 
   useEffect(() => {
+    
     // Only track page views on push (new navigation) not on replace or pop
 
     if (navigationType === 'PUSH') {
