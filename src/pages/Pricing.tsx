@@ -51,9 +51,11 @@ const Pricing = () => {
                 <p className="text-lg text-secondary/80 mb-6">
                   For early-stage startups and small teams looking to leverage AI-powered tools efficiently.
                 </p>
-                <div className="flex items-center justify-center mb-6">
-                  <span className="text-4xl font-bold text-primary">$5,000</span>
-                  <span className="text-secondary/80 ml-1">/month</span>
+                <div className="flex flex-col items-center justify-center mb-6">
+                  <span className="text-2xl font-bold text-primary mb-2">Custom pricing tailored to your needs</span>
+                  <p className="text-secondary/80 text-center">
+                    We create personalized solutions based on your specific requirements and business goals
+                  </p>
                 </div>
                 <a 
                   href="https://calendly.com/danteocualesjr/chat-with-dante-nativestack-ai" 
