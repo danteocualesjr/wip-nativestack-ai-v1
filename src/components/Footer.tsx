@@ -50,7 +50,7 @@ const Footer = () => {
         
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-white/70 text-sm">
-            © 2025 NativeStack AI. All rights reserved.
+            © 2025 NativeStack AI LLC. All rights reserved.
           </p>
           <div className="flex items-center space-x-6">
             <Link to="https://x.com/danteocualesjr" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-white transition-colors">

@@ -16,7 +16,7 @@ const AboutUs = () => {
               <span className="text-xs sm:text-sm font-medium">About Us</span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 sm:mb-8">
-              About <span className="text-white">NativeStack AI</span>
+              About <span className="text-white">NativeStack AI LLC</span>
             </h1>
             <p className="max-w-2xl mx-auto text-base sm:text-lg md:text-xl text-white/80 mb-8 sm:mb-12 px-4">
               Empowering businesses to thrive in the AI era by providing the tools, 
@@ -29,7 +29,7 @@ const AboutUs = () => {
         <section className="px-4 sm:px-6 lg:px-8 py-16 sm:py-24 bg-gray-50">
           <div className="mx-auto max-w-3xl prose prose-sm sm:prose-base lg:prose-lg">
             <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
-              At NativeStack AI, our mission is to help businesses thrive by transitioning to the AI era and becoming AI-native. We equip organizations with the tools and strategies needed to succeed in an AI-driven world. Our goal is simple yet powerful: to enable businesses across industries to adopt AI at their core, starting with essential areas like sales. By leveraging no-code tools, building custom micro-apps, and curating AI-powered solutions, we empower clients to streamline workflows, make data-driven decisions, and achieve maximum impact through production-ready MVPs.
+              At NativeStack AI LLC, our mission is to help businesses thrive by transitioning to the AI era and becoming AI-native. We equip organizations with the tools and strategies needed to succeed in an AI-driven world. Our goal is simple yet powerful: to enable businesses across industries to adopt AI at their core, starting with essential areas like sales. By leveraging no-code tools, building custom micro-apps, and curating AI-powered solutions, we empower clients to streamline workflows, make data-driven decisions, and achieve maximum impact through production-ready MVPs.
             </p>
             
             <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
@@ -37,7 +37,7 @@ const AboutUs = () => {
             </p>
             
             <p className="mb-4 sm:mb-6 text-secondary/90 leading-relaxed text-sm sm:text-base">
-              At NativeStack AI, we are committed to delivering real value and driving meaningful change. Our services address the unique needs of every client, with a global perspective and a personal touch. From enabling educators to enhance their classrooms with AI tools to helping healthcare providers improve patient experiences, we deliver innovative, AI-first solutions that elevate customer satisfaction and drive measurable success. We're here to guide you on the journey to becoming truly AI-native, transforming challenges into opportunities for growth through quick-to-market, effective MVPs.
+              At NativeStack AI LLC, we are committed to delivering real value and driving meaningful change. Our services address the unique needs of every client, with a global perspective and a personal touch. From enabling educators to enhance their classrooms with AI tools to helping healthcare providers improve patient experiences, we deliver innovative, AI-first solutions that elevate customer satisfaction and drive measurable success. We're here to guide you on the journey to becoming truly AI-native, transforming challenges into opportunities for growth through quick-to-market, effective MVPs.
             </p>
           </div>
         </section>

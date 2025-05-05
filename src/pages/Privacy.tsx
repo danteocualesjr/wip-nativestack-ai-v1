@@ -1,3 +1,4 @@
+
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
@@ -13,12 +14,12 @@ const Privacy = () => {
         
         <div className="prose prose-slate max-w-none">
           <p className="text-lg mb-6">
-            Last updated: March 31, 2025
+            Last updated: May 5, 2025
           </p>
           
           <h2 className="text-2xl font-semibold mt-8 mb-4">1. Introduction</h2>
           <p>
-            NativeStack AI ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. 
+            NativeStack AI LLC ("we", "our", or "us") respects your privacy and is committed to protecting your personal data. 
             This privacy policy will inform you about how we look after your personal data when you visit our website and 
             tell you about your privacy rights and how the law protects you.
           </p>

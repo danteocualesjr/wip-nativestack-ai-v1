@@ -1,3 +1,4 @@
+
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
@@ -13,7 +14,7 @@ const Cookies = () => {
         
         <div className="prose prose-slate max-w-none">
           <p className="text-lg mb-6">
-            Last updated: March 31, 2025
+            Last updated: May 5, 2025
           </p>
           
           <h2 className="text-2xl font-semibold mt-8 mb-4">What Are Cookies</h2>
@@ -24,7 +25,7 @@ const Cookies = () => {
           
           <h2 className="text-2xl font-semibold mt-8 mb-4">How We Use Cookies</h2>
           <p>
-            NativeStack AI uses cookies for the following purposes:
+            NativeStack AI LLC uses cookies for the following purposes:
           </p>
           <ul className="list-disc pl-6 my-4 space-y-2">
             <li><strong>Essential Cookies:</strong> These are necessary for the website to function properly. They enable core functionality such as security, network management, and account access.</li>

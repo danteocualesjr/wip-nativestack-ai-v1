@@ -1,3 +1,4 @@
+
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
@@ -13,12 +14,12 @@ const Security = () => {
         
         <div className="prose prose-slate max-w-none">
           <p className="text-lg mb-6">
-            Last updated: March 31, 2025
+            Last updated: May 5, 2025
           </p>
           
           <h2 className="text-2xl font-semibold mt-8 mb-4">Our Commitment to Security</h2>
           <p>
-            At NativeStack AI, security is at the core of everything we build. We understand that when you use our services, 
+            At NativeStack AI LLC, security is at the core of everything we build. We understand that when you use our services, 
             you're entrusting us with your valuable information. We take this responsibility seriously and are committed to 
             implementing robust security measures to protect your data.
           </p>
@@ -45,7 +46,7 @@ const Security = () => {
           
           <h2 className="text-2xl font-semibold mt-8 mb-4">Compliance</h2>
           <p>
-            NativeStack AI maintains compliance with relevant security standards:
+            NativeStack AI LLC maintains compliance with relevant security standards:
           </p>
           <ul className="list-disc pl-6 my-4 space-y-2">
             <li><strong>SOC 2 Type II:</strong> We maintain SOC 2 Type II compliance for security, availability, and confidentiality.</li>
