@@ -16,7 +16,7 @@ const AboutUs = () => {
               <span className="text-xs sm:text-sm font-medium">About Us</span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6 sm:mb-8">
-              About <span className="text-white">NativeStack AI LLC</span>
+              About <span className="text-white">NativeStack AI</span>
             </h1>
             <p className="max-w-2xl mx-auto text-base sm:text-lg md:text-xl text-white/80 mb-8 sm:mb-12 px-4">
               Empowering businesses to thrive in the AI era by providing the tools, 
