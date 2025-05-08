@@ -119,6 +119,14 @@ const Index = () => {
                   question: "How do I get started with NativeStack AI?",
                   answer: "Contact us for a free consultation where we'll discuss your business needs and how our AI solutions can help.",
                 },
+                {
+                  question: "How long does it take to build an MVP?",
+                  answer: "Depending on complexity, our MVPs typically take 2-6 weeks to develop. We focus on getting your core features to market quickly while ensuring quality and functionality.",
+                },
+                {
+                  question: "Do you provide ongoing support after implementation?",
+                  answer: "Yes, we offer various support and maintenance packages to ensure your AI solution continues to perform optimally and can be enhanced as your business grows.",
+                },
               ].map((faq, index) => (
                 <div
                   key={index}
