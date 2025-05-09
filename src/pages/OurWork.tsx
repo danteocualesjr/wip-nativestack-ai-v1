@@ -240,6 +240,32 @@ const OurWork = () => {
               </div>
 
               <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
+                <div className="h-64 flex items-center justify-center bg-blue-50 overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full w-full">
+                    <img 
+                      src="/lovable-uploads/987c42c5-fb90-4199-a3b1-847454a8df17.png" 
+                      alt="AgentFly" 
+                      className="h-full w-full object-cover"
+                    />
+                  </AspectRatio>
+                </div>
+                <div className="p-6">
+                  <div className="flex items-center gap-2 mb-2">
+                    <Bot className="h-5 w-5 text-primary" />
+                    <h3 className="font-semibold text-lg">AgentFly</h3>
+                  </div>
+                  <p className="text-secondary/80 mb-4">
+                    AI agent platform that autonomously handles complex business tasks by orchestrating multiple specialized AI agents working together.
+                  </p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full">Task Automation</span>
+                    <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full">AI Orchestration</span>
+                    <span className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded-full">Process Optimization</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all border border-zinc-100">
                 <div className="h-64 flex items-center justify-center bg-teal-50 overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full w-full">
                     <img 
