@@ -10,11 +10,12 @@ const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   const isActive = (path: string) => {
-    
+
     return location.pathname === path ? "text-primary font-medium" : "text-secondary hover:text-primary transition-colors";
   };
   
   const toggleMobileMenu = () => {
+    
     setIsMobileMenuOpen(!isMobileMenuOpen);
   };
   
