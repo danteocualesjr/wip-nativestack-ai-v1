@@ -15,8 +15,9 @@ const Navigation = () => {
   };
   
   const toggleMobileMenu = () => {
-    
+
     setIsMobileMenuOpen(!isMobileMenuOpen);
+    
   };
   
   return (
