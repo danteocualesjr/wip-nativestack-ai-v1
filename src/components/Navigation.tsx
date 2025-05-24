@@ -5,11 +5,12 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
 const Navigation = () => {
-  
+
   const location = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   const isActive = (path: string) => {
+    
     return location.pathname === path ? "text-primary font-medium" : "text-secondary hover:text-primary transition-colors";
   };
   
