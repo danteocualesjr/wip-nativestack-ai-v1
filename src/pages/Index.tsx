@@ -66,15 +66,17 @@ const Index = () => {
             </div>
           </div>
 
-          <div className="relative mt-16 sm:mt-20 flex justify-center">
-            <div className="relative w-full max-w-6xl mx-auto px-4">
-              <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-purple-500/20 rounded-3xl blur-2xl"></div>
-              <div className="relative flex justify-center">
-                <img
-                  src="https://antimetal.com/images/hero/preview.png"
-                  alt="Dashboard Preview"
-                  className="relative rounded-2xl sm:rounded-3xl shadow-2xl w-full max-w-5xl h-auto border border-white/20"
-                />
+          <div className="relative mt-16 sm:mt-20">
+            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="flex justify-center">
+                <div className="relative w-full max-w-5xl">
+                  <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-purple-500/20 rounded-3xl blur-2xl"></div>
+                  <img
+                    src="https://antimetal.com/images/hero/preview.png"
+                    alt="Dashboard Preview"
+                    className="relative rounded-2xl sm:rounded-3xl shadow-2xl w-full h-auto border border-white/20 mx-auto block"
+                  />
+                </div>
               </div>
             </div>
           </div>
