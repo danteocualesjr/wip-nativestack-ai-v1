@@ -4,7 +4,6 @@ import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
-import dashboardPreview from "@/assets/dashboard-preview.jpg";
 
 const Index = () => {
   
@@ -73,7 +72,7 @@ const Index = () => {
                 <div className="relative w-full max-w-5xl">
                   <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-purple-500/20 rounded-3xl blur-2xl"></div>
                   <img
-                    src={dashboardPreview}
+                    src="/lovable-uploads/7f364202-7528-4542-97f4-0639e1e1ed41.png"
                     alt="Dashboard Preview"
                     className="relative rounded-2xl sm:rounded-3xl shadow-2xl w-full h-auto border border-white/20 mx-auto block"
                   />
