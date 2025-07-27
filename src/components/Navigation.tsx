@@ -28,6 +28,7 @@ const Navigation = () => {
         </Link>
         
         {/* Desktop Navigation */}
+        
         <div className="hidden md:flex items-center space-x-8">
           <Link to="/about-us" className={isActive("/about-us")}>
             About Us
