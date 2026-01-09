@@ -41,7 +41,7 @@ const Index = () => {
             </h1>
             
             <p className="mx-auto max-w-3xl text-lg sm:text-xl text-secondary/80 mb-8 sm:mb-10 px-4 leading-relaxed">
-              We help businesses build internal tools, AI-powered systems, and production-ready MVPs, such as custom CRMs, dashboards, SaaS applications, AI agents, and chatbots to streamline workflows and drive revenue for your business.
+              We help businesses build internal tools, AI-powered systems, and production-ready MVPs, such as custom CRMs, dashboards, SaaS applications, AI agents, and chatbots to streamline workflows and drive revenue.
             </p>
             
             <div className="flex flex-col sm:flex-row justify-center gap-4 px-4">
