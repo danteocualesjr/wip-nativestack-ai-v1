@@ -4,34 +4,26 @@
 
 @layer base {
   :root {
-    --background: 40 33% 98%;
-    --foreground: 220 15% 15%;
+    --background: 60 33% 99%;
+    --foreground: 240 10% 3.9%;
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 15%;
+    --card-foreground: 240 10% 3.9%;
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 15%;
-    --primary: 24 100% 50%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 220 10% 94%;
-    --secondary-foreground: 220 15% 20%;
-    --muted: 220 10% 96%;
-    --muted-foreground: 220 10% 45%;
-    --accent: 265 80% 60%;
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 84% 60%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 240 4.8% 95.9%;
+    --accent-foreground: 240 5.9% 10%;
+    --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 220 15% 90%;
-    --input: 220 15% 92%;
-    --ring: 24 100% 50%;
-    --radius: 1rem;
-    
-    /* Custom semantic tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(24, 100%, 50%), hsl(35, 100%, 55%));
-    --gradient-accent: linear-gradient(135deg, hsl(265, 80%, 60%), hsl(280, 70%, 55%));
-    --gradient-hero: linear-gradient(135deg, hsl(220, 15%, 15%), hsl(220, 20%, 25%));
-    --shadow-glow: 0 0 60px -15px hsl(24 100% 50% / 0.4);
-    --shadow-card: 0 4px 24px -6px hsl(220 15% 15% / 0.08), 0 12px 48px -12px hsl(220 15% 15% / 0.12);
-    --shadow-card-hover: 0 8px 32px -8px hsl(220 15% 15% / 0.12), 0 20px 64px -16px hsl(220 15% 15% / 0.16);
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.75rem;
   }
 
   * {
@@ -44,87 +36,10 @@
   }
 
   .glass {
-    @apply bg-white/70 backdrop-blur-xl border border-white/40;
-  }
-  
-  .glass-dark {
-    @apply bg-black/20 backdrop-blur-xl border border-white/10;
+    @apply bg-white/10 backdrop-blur-lg border border-white/20;
   }
 }
 
-@layer components {
-  .gradient-text-primary {
-    @apply bg-gradient-to-r from-orange-500 via-amber-500 to-orange-600 bg-clip-text text-transparent;
-  }
-  
-  .gradient-text-dark {
-    @apply bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent;
-  }
-  
-  .btn-primary {
-    @apply relative overflow-hidden px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white rounded-2xl font-semibold shadow-lg transition-all duration-300;
-    box-shadow: 0 8px 24px -8px hsl(24 100% 50% / 0.5);
-  }
-  
-  .btn-primary:hover {
-    @apply shadow-xl;
-    box-shadow: 0 12px 32px -8px hsl(24 100% 50% / 0.6);
-    transform: translateY(-2px);
-  }
-  
-  .btn-secondary {
-    @apply px-8 py-4 bg-white/80 backdrop-blur-sm border-2 border-gray-200 text-gray-800 rounded-2xl font-semibold transition-all duration-300;
-  }
-  
-  .btn-secondary:hover {
-    @apply border-orange-300 bg-orange-50/80;
-    transform: translateY(-2px);
-  }
-  
-  .card-elevated {
-    @apply bg-white rounded-3xl border border-gray-100/80 transition-all duration-500;
-    box-shadow: var(--shadow-card);
-  }
-  
-  .card-elevated:hover {
-    box-shadow: var(--shadow-card-hover);
-    transform: translateY(-8px);
-  }
-  
-  .section-badge {
-    @apply inline-flex items-center gap-2 px-4 py-2 rounded-full font-medium text-sm backdrop-blur-sm;
-  }
-}
-
-@layer utilities {
-  .animate-float {
-    animation: float 6s ease-in-out infinite;
-  }
-  
-  .animate-glow {
-    animation: glow 3s ease-in-out infinite alternate;
-  }
-  
-  .animate-shimmer {
-    animation: shimmer 2.5s linear infinite;
-  }
-  
-  .text-balance {
-    text-wrap: balance;
-  }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-20px); }
-}
-
-@keyframes glow {
-  from { opacity: 0.5; }
-  to { opacity: 1; }
-}
-
-@keyframes shimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
+.animate-float {
+  animation: float 6s ease-in-out infinite;
 }
