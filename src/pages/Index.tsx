@@ -1,5 +1,5 @@
 
-import { ArrowRight, Check, ChevronDown, Zap, Settings, Bot, Code, Sparkles } from "lucide-react";
+import { ArrowRight, Check, ChevronDown, Zap, Settings, Bot, Code } from "lucide-react";
 import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
@@ -25,7 +25,6 @@ const Index = () => {
           <div className="relative mx-auto max-w-7xl text-center">
             <div className="mb-6 sm:mb-8 flex justify-center">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-primary/10 to-purple-500/10 border border-primary/20 text-primary font-medium text-sm">
-                <Sparkles className="w-4 h-4" />
                 AI-Powered Business Solutions
               </div>
             </div>
@@ -240,7 +239,6 @@ const Index = () => {
           <div className="relative mx-auto max-w-7xl text-center">
             <div className="mb-6 flex justify-center">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm border border-white/30 text-white font-medium text-sm">
-                <Sparkles className="w-4 h-4" />
                 Ready to Transform?
               </div>
             </div>
